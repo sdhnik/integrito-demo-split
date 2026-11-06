@@ -1,0 +1,394 @@
+{
+  "1440x900": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "horizontalOverflow": false,
+    "documentScrollWidth": 1440,
+    "headerHeightToken": "62px",
+    "header": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 62,
+      "right": 1440,
+      "bottom": 62
+    },
+    "logo": {
+      "left": 64,
+      "top": 16.5,
+      "width": 123.33,
+      "height": 28,
+      "right": 187.33,
+      "bottom": 44.5
+    },
+    "nav": {
+      "left": 525.73,
+      "top": 13.75,
+      "width": 388.53,
+      "height": 33.5,
+      "right": 914.27,
+      "bottom": 47.25
+    },
+    "actions": {
+      "left": 1154.52,
+      "top": 12,
+      "width": 221.48,
+      "height": 37,
+      "right": 1376,
+      "bottom": 49
+    },
+    "navCenterDelta": 0,
+    "navLabels": [
+      "AI Text Detector",
+      "AI Image Detector",
+      "Plagiarism Checker"
+    ],
+    "comingSoonCount": 0,
+    "headerPosition": "relative",
+    "section": {
+      "left": 64,
+      "top": 62,
+      "width": 1312,
+      "height": 838,
+      "right": 1376,
+      "bottom": 900
+    },
+    "sectionMinHeight": "838px",
+    "grid": {
+      "left": 64,
+      "top": 385,
+      "width": 1312,
+      "height": 192,
+      "right": 1376,
+      "bottom": 577
+    },
+    "verticalCenter": {
+      "gapAbove": 323,
+      "gapBelow": 323,
+      "delta": 0
+    },
+    "firstViewportFit": {
+      "headerPlusSection": 900,
+      "viewportHeight": 900,
+      "matches": true
+    },
+    "splitGapToken": "10rem",
+    "columnGapComputed": "160px",
+    "gridTemplateColumns": "479.984px 672px",
+    "left": {
+      "left": 64,
+      "top": 385,
+      "width": 479.98,
+      "height": 192,
+      "right": 543.98,
+      "bottom": 577
+    },
+    "right": {
+      "left": 703.98,
+      "top": 385,
+      "width": 672,
+      "height": 192,
+      "right": 1375.98,
+      "bottom": 577
+    },
+    "measuredGap": 160,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02-1/viewport-1440x900.png"
+  },
+  "1280x720": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "horizontalOverflow": false,
+    "documentScrollWidth": 1280,
+    "headerHeightToken": "62px",
+    "header": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 62,
+      "right": 1280,
+      "bottom": 62
+    },
+    "logo": {
+      "left": 64,
+      "top": 16.5,
+      "width": 123.33,
+      "height": 28,
+      "right": 187.33,
+      "bottom": 44.5
+    },
+    "nav": {
+      "left": 445.73,
+      "top": 13.75,
+      "width": 388.53,
+      "height": 33.5,
+      "right": 834.27,
+      "bottom": 47.25
+    },
+    "actions": {
+      "left": 994.52,
+      "top": 12,
+      "width": 221.48,
+      "height": 37,
+      "right": 1216,
+      "bottom": 49
+    },
+    "navCenterDelta": 0,
+    "navLabels": [
+      "AI Text Detector",
+      "AI Image Detector",
+      "Plagiarism Checker"
+    ],
+    "comingSoonCount": 0,
+    "headerPosition": "relative",
+    "section": {
+      "left": 64,
+      "top": 62,
+      "width": 1152,
+      "height": 658,
+      "right": 1216,
+      "bottom": 720
+    },
+    "sectionMinHeight": "658px",
+    "grid": {
+      "left": 64,
+      "top": 295,
+      "width": 1152,
+      "height": 192,
+      "right": 1216,
+      "bottom": 487
+    },
+    "verticalCenter": {
+      "gapAbove": 233,
+      "gapBelow": 233,
+      "delta": 0
+    },
+    "firstViewportFit": {
+      "headerPlusSection": 720,
+      "viewportHeight": 720,
+      "matches": true
+    },
+    "splitGapToken": "10rem",
+    "columnGapComputed": "160px",
+    "gridTemplateColumns": "413.328px 578.656px",
+    "left": {
+      "left": 64,
+      "top": 295,
+      "width": 413.33,
+      "height": 192,
+      "right": 477.33,
+      "bottom": 487
+    },
+    "right": {
+      "left": 637.33,
+      "top": 295,
+      "width": 578.66,
+      "height": 192,
+      "right": 1215.98,
+      "bottom": 487
+    },
+    "measuredGap": 160,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02-1/viewport-1280x720.png"
+  },
+  "1024x768": {
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    },
+    "horizontalOverflow": false,
+    "documentScrollWidth": 1024,
+    "headerHeightToken": "62px",
+    "header": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 62,
+      "right": 1024,
+      "bottom": 62
+    },
+    "logo": {
+      "left": 64,
+      "top": 16.5,
+      "width": 123.33,
+      "height": 28,
+      "right": 187.33,
+      "bottom": 44.5
+    },
+    "nav": {
+      "left": 317.73,
+      "top": 13.75,
+      "width": 388.53,
+      "height": 33.5,
+      "right": 706.27,
+      "bottom": 47.25
+    },
+    "actions": {
+      "left": 738.52,
+      "top": 12,
+      "width": 221.48,
+      "height": 37,
+      "right": 960,
+      "bottom": 49
+    },
+    "navCenterDelta": 0,
+    "navLabels": [
+      "AI Text Detector",
+      "AI Image Detector",
+      "Plagiarism Checker"
+    ],
+    "comingSoonCount": 0,
+    "headerPosition": "relative",
+    "section": {
+      "left": 64,
+      "top": 62,
+      "width": 896,
+      "height": 706,
+      "right": 960,
+      "bottom": 768
+    },
+    "sectionMinHeight": "706px",
+    "grid": {
+      "left": 64,
+      "top": 211,
+      "width": 896,
+      "height": 408,
+      "right": 960,
+      "bottom": 619
+    },
+    "verticalCenter": {
+      "gapAbove": 149,
+      "gapBelow": 149,
+      "delta": 0
+    },
+    "firstViewportFit": {
+      "headerPlusSection": 768,
+      "viewportHeight": 768,
+      "matches": true
+    },
+    "splitGapToken": "10rem",
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "896px",
+    "left": {
+      "left": 64,
+      "top": 211,
+      "width": 896,
+      "height": 192,
+      "right": 960,
+      "bottom": 403
+    },
+    "right": {
+      "left": 64,
+      "top": 427,
+      "width": 896,
+      "height": 192,
+      "right": 960,
+      "bottom": 619
+    },
+    "measuredGap": null,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02-1/viewport-1024x768.png"
+  },
+  "390x844": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "documentScrollWidth": 390,
+    "headerHeightToken": "82px",
+    "header": {
+      "left": 0,
+      "top": 0,
+      "width": 390,
+      "height": 82,
+      "right": 390,
+      "bottom": 82
+    },
+    "logo": {
+      "left": 64,
+      "top": 13,
+      "width": 61.3,
+      "height": 24,
+      "right": 125.3,
+      "bottom": 37
+    },
+    "nav": {
+      "left": 64,
+      "top": 50,
+      "width": 262,
+      "height": 23,
+      "right": 326,
+      "bottom": 73
+    },
+    "actions": {
+      "left": 149.3,
+      "top": 8,
+      "width": 176.7,
+      "height": 34,
+      "right": 326,
+      "bottom": 42
+    },
+    "navCenterDelta": 0,
+    "navLabels": [
+      "AI Text Detector",
+      "AI Image Detector",
+      "Plagiarism Checker"
+    ],
+    "comingSoonCount": 0,
+    "headerPosition": "relative",
+    "section": {
+      "left": 64,
+      "top": 82,
+      "width": 262,
+      "height": 762,
+      "right": 326,
+      "bottom": 844
+    },
+    "sectionMinHeight": "762px",
+    "grid": {
+      "left": 64,
+      "top": 259,
+      "width": 262,
+      "height": 408,
+      "right": 326,
+      "bottom": 667
+    },
+    "verticalCenter": {
+      "gapAbove": 177,
+      "gapBelow": 177,
+      "delta": 0
+    },
+    "firstViewportFit": {
+      "headerPlusSection": 844,
+      "viewportHeight": 844,
+      "matches": true
+    },
+    "splitGapToken": "10rem",
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "262px",
+    "left": {
+      "left": 64,
+      "top": 259,
+      "width": 262,
+      "height": 192,
+      "right": 326,
+      "bottom": 451
+    },
+    "right": {
+      "left": 64,
+      "top": 475,
+      "width": 262,
+      "height": 192,
+      "right": 326,
+      "bottom": 667
+    },
+    "measuredGap": null,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02-1/viewport-390x844.png"
+  }
+}

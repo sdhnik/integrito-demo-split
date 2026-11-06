@@ -1,0 +1,562 @@
+{
+  "1440x900": {
+    "light": {
+      "theme": "light",
+      "logoSrc": "/src/assets/integrito-logo-black.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 1440,
+        "height": 62,
+        "right": 1440,
+        "top": 0,
+        "bottom": 62
+      },
+      "logo": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "brand": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "nav": {
+        "left": 231.33,
+        "width": 395,
+        "height": 33.5,
+        "right": 626.33,
+        "top": 13.75,
+        "bottom": 47.25
+      },
+      "logoNavGap": 44,
+      "navIsCentered": false,
+      "activeColor": "rgb(76, 93, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "838px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "160px",
+      "gridTemplateColumns": "479.984px 672px",
+      "left": {
+        "left": 64,
+        "width": 479.98,
+        "height": 192,
+        "right": 543.98,
+        "top": 385,
+        "bottom": 577
+      },
+      "right": {
+        "left": 703.98,
+        "width": 672,
+        "height": 192,
+        "right": 1375.98,
+        "top": 385,
+        "bottom": 577
+      },
+      "measuredGap": 160,
+      "stageBg": "rgb(232, 238, 248)",
+      "bodyBg": "rgb(248, 248, 247)"
+    },
+    "dark": {
+      "theme": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 1440,
+        "height": 62,
+        "right": 1440,
+        "top": 0,
+        "bottom": 62
+      },
+      "logo": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "brand": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "nav": {
+        "left": 231.33,
+        "width": 395,
+        "height": 33.5,
+        "right": 626.33,
+        "top": 13.75,
+        "bottom": 47.25
+      },
+      "logoNavGap": 44,
+      "navIsCentered": false,
+      "activeColor": "rgb(123, 135, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "838px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "160px",
+      "gridTemplateColumns": "479.984px 672px",
+      "left": {
+        "left": 64,
+        "width": 479.98,
+        "height": 192,
+        "right": 543.98,
+        "top": 385,
+        "bottom": 577
+      },
+      "right": {
+        "left": 703.98,
+        "width": 672,
+        "height": 192,
+        "right": 1375.98,
+        "top": 385,
+        "bottom": 577
+      },
+      "measuredGap": 160,
+      "stageBg": "rgb(26, 31, 42)",
+      "bodyBg": "rgb(18, 19, 17)"
+    },
+    "persistence": {
+      "stored": "dark",
+      "dataset": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg"
+    }
+  },
+  "1280x720": {
+    "light": {
+      "theme": "light",
+      "logoSrc": "/src/assets/integrito-logo-black.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 1280,
+        "height": 62,
+        "right": 1280,
+        "top": 0,
+        "bottom": 62
+      },
+      "logo": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "brand": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "nav": {
+        "left": 231.33,
+        "width": 395,
+        "height": 33.5,
+        "right": 626.33,
+        "top": 13.75,
+        "bottom": 47.25
+      },
+      "logoNavGap": 44,
+      "navIsCentered": false,
+      "activeColor": "rgb(76, 93, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "658px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "160px",
+      "gridTemplateColumns": "413.328px 578.656px",
+      "left": {
+        "left": 64,
+        "width": 413.33,
+        "height": 192,
+        "right": 477.33,
+        "top": 295,
+        "bottom": 487
+      },
+      "right": {
+        "left": 637.33,
+        "width": 578.66,
+        "height": 192,
+        "right": 1215.98,
+        "top": 295,
+        "bottom": 487
+      },
+      "measuredGap": 160,
+      "stageBg": "rgb(232, 238, 248)",
+      "bodyBg": "rgb(248, 248, 247)"
+    },
+    "dark": {
+      "theme": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 1280,
+        "height": 62,
+        "right": 1280,
+        "top": 0,
+        "bottom": 62
+      },
+      "logo": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "brand": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "nav": {
+        "left": 231.33,
+        "width": 395,
+        "height": 33.5,
+        "right": 626.33,
+        "top": 13.75,
+        "bottom": 47.25
+      },
+      "logoNavGap": 44,
+      "navIsCentered": false,
+      "activeColor": "rgb(123, 135, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "658px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "160px",
+      "gridTemplateColumns": "413.328px 578.656px",
+      "left": {
+        "left": 64,
+        "width": 413.33,
+        "height": 192,
+        "right": 477.33,
+        "top": 295,
+        "bottom": 487
+      },
+      "right": {
+        "left": 637.33,
+        "width": 578.66,
+        "height": 192,
+        "right": 1215.98,
+        "top": 295,
+        "bottom": 487
+      },
+      "measuredGap": 160,
+      "stageBg": "rgb(26, 31, 42)",
+      "bodyBg": "rgb(18, 19, 17)"
+    },
+    "persistence": null
+  },
+  "1024x768": {
+    "light": {
+      "theme": "light",
+      "logoSrc": "/src/assets/integrito-logo-black.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 1024,
+        "height": 62,
+        "right": 1024,
+        "top": 0,
+        "bottom": 62
+      },
+      "logo": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "brand": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "nav": {
+        "left": 231.33,
+        "width": 395,
+        "height": 33.5,
+        "right": 626.33,
+        "top": 13.75,
+        "bottom": 47.25
+      },
+      "logoNavGap": 44,
+      "navIsCentered": false,
+      "activeColor": "rgb(76, 93, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "706px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "0px",
+      "gridTemplateColumns": "896px",
+      "left": {
+        "left": 64,
+        "width": 896,
+        "height": 192,
+        "right": 960,
+        "top": 211,
+        "bottom": 403
+      },
+      "right": {
+        "left": 64,
+        "width": 896,
+        "height": 192,
+        "right": 960,
+        "top": 427,
+        "bottom": 619
+      },
+      "measuredGap": null,
+      "stageBg": "rgb(232, 238, 248)",
+      "bodyBg": "rgb(248, 248, 247)"
+    },
+    "dark": {
+      "theme": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 1024,
+        "height": 62,
+        "right": 1024,
+        "top": 0,
+        "bottom": 62
+      },
+      "logo": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "brand": {
+        "left": 64,
+        "width": 123.33,
+        "height": 28,
+        "right": 187.33,
+        "top": 16.5,
+        "bottom": 44.5
+      },
+      "nav": {
+        "left": 231.33,
+        "width": 395,
+        "height": 33.5,
+        "right": 626.33,
+        "top": 13.75,
+        "bottom": 47.25
+      },
+      "logoNavGap": 44,
+      "navIsCentered": false,
+      "activeColor": "rgb(123, 135, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "706px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "0px",
+      "gridTemplateColumns": "896px",
+      "left": {
+        "left": 64,
+        "width": 896,
+        "height": 192,
+        "right": 960,
+        "top": 211,
+        "bottom": 403
+      },
+      "right": {
+        "left": 64,
+        "width": 896,
+        "height": 192,
+        "right": 960,
+        "top": 427,
+        "bottom": 619
+      },
+      "measuredGap": null,
+      "stageBg": "rgb(26, 31, 42)",
+      "bodyBg": "rgb(18, 19, 17)"
+    },
+    "persistence": null
+  },
+  "390x844": {
+    "light": {
+      "theme": "light",
+      "logoSrc": "/src/assets/integrito-logo-black.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 390,
+        "height": 114,
+        "right": 390,
+        "top": 0,
+        "bottom": 114
+      },
+      "logo": {
+        "left": 64,
+        "width": 105.7,
+        "height": 24,
+        "right": 169.7,
+        "top": 8,
+        "bottom": 32
+      },
+      "brand": {
+        "left": 64,
+        "width": 105.7,
+        "height": 24,
+        "right": 169.7,
+        "top": 8,
+        "bottom": 32
+      },
+      "nav": {
+        "left": 64,
+        "width": 262,
+        "height": 23,
+        "right": 326,
+        "top": 82,
+        "bottom": 105
+      },
+      "logoNavGap": -105.7,
+      "navIsCentered": true,
+      "activeColor": "rgb(76, 93, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "730px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "0px",
+      "gridTemplateColumns": "262px",
+      "left": {
+        "left": 64,
+        "width": 262,
+        "height": 192,
+        "right": 326,
+        "top": 275,
+        "bottom": 467
+      },
+      "right": {
+        "left": 64,
+        "width": 262,
+        "height": 192,
+        "right": 326,
+        "top": 491,
+        "bottom": 683
+      },
+      "measuredGap": null,
+      "stageBg": "rgb(232, 238, 248)",
+      "bodyBg": "rgb(248, 248, 247)"
+    },
+    "dark": {
+      "theme": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "horizontalOverflow": false,
+      "mainMinHeight": "0px",
+      "header": {
+        "left": 0,
+        "width": 390,
+        "height": 114,
+        "right": 390,
+        "top": 0,
+        "bottom": 114
+      },
+      "logo": {
+        "left": 64,
+        "width": 105.7,
+        "height": 24,
+        "right": 169.7,
+        "top": 8,
+        "bottom": 32
+      },
+      "brand": {
+        "left": 64,
+        "width": 105.7,
+        "height": 24,
+        "right": 169.7,
+        "top": 8,
+        "bottom": 32
+      },
+      "nav": {
+        "left": 64,
+        "width": 262,
+        "height": 23,
+        "right": 326,
+        "top": 82,
+        "bottom": 105
+      },
+      "logoNavGap": -105.7,
+      "navIsCentered": true,
+      "activeColor": "rgb(123, 135, 255)",
+      "activeWeight": "600",
+      "activeUnderline": "none",
+      "comingSoonCount": 0,
+      "sectionMinHeight": "730px",
+      "firstViewportFit": true,
+      "verticalCenterDelta": 0,
+      "splitGap": "0px",
+      "gridTemplateColumns": "262px",
+      "left": {
+        "left": 64,
+        "width": 262,
+        "height": 192,
+        "right": 326,
+        "top": 275,
+        "bottom": 467
+      },
+      "right": {
+        "left": 64,
+        "width": 262,
+        "height": 192,
+        "right": 326,
+        "top": 491,
+        "bottom": 683
+      },
+      "measuredGap": null,
+      "stageBg": "rgb(26, 31, 42)",
+      "bodyBg": "rgb(18, 19, 17)"
+    },
+    "persistence": null
+  }
+}

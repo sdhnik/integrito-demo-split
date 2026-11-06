@@ -1,0 +1,67 @@
+/**
+ * Exact styles from integrito.app `src/styles/main.css` (.theme-switcher*).
+ * Color tokens scoped here so we do not import the old app theme system.
+ * Values match original :root / :root[data-theme="dark"].
+ */
+
+.theme-switcher {
+  --line: #dededc;
+  --muted: #6c6c71;
+  --text: #171717;
+  --bg: #f8f8f6;
+  --button-icon-size: 16px;
+  --button-transition: 160ms ease;
+
+  display: flex;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  gap: 3px;
+}
+
+[data-theme="dark"] .theme-switcher {
+  --line: #303238;
+  --muted: #b8bdc7;
+  --text: #f2f2f2;
+  --bg: #0c0d10;
+}
+
+.theme-switcher button {
+  width: 31px;
+  height: 29px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  transition:
+    background-color var(--button-transition),
+    color var(--button-transition);
+}
+
+.theme-switcher button[aria-pressed="true"] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.theme-switcher svg {
+  width: var(--button-icon-size);
+  height: var(--button-icon-size);
+  max-width: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-switcher button:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-switcher button {
+    transition: none;
+  }
+}

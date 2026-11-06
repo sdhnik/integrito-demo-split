@@ -1,0 +1,28 @@
+/**
+ * Editorial section rhythm
+ *
+ * Future sequence inside StorytellingStage:
+ *   Hero → Introduction → How It Works 01 → 02 → 03
+ *
+ * StorytellingStage itself must NOT use 100svh — height is the sum
+ * of these sections (sticky + spiral boundary).
+ *
+ * TrustSection stays OUTSIDE StorytellingStage.
+ */
+
+.editorial-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100svh;
+  /* Grows naturally when content exceeds one viewport */
+}
+
+/**
+ * First editorial block only — remaining viewport below Header.
+ * --header-height is published from the rendered Header (ResizeObserver).
+ */
+.editorial-section--first {
+  min-height: calc(100svh - var(--header-height));
+}

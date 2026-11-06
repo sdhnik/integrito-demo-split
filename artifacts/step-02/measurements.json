@@ -1,0 +1,190 @@
+{
+  "1440x900": {
+    "horizontalOverflow": false,
+    "documentScrollWidth": 1440,
+    "header": {
+      "left": 0,
+      "width": 1440,
+      "height": 74,
+      "right": 1440
+    },
+    "nav": {
+      "left": 923.92,
+      "width": 452.08,
+      "height": 60.39,
+      "right": 1376
+    },
+    "activeLink": {
+      "left": 923.92,
+      "width": 113.31,
+      "height": 45.5,
+      "right": 1037.23
+    },
+    "activeColor": "rgb(76, 93, 255)",
+    "navTexts": [
+      "AI Text Detection",
+      "AI Image DetectionComing Soon",
+      "Plagiarism CheckComing Soon"
+    ],
+    "headerPosition": "relative",
+    "splitGapToken": "10rem",
+    "columnGapComputed": "160px",
+    "gridTemplateColumns": "479.984px 672px",
+    "left": {
+      "left": 64,
+      "width": 479.98,
+      "height": 192,
+      "right": 543.98
+    },
+    "right": {
+      "left": 703.98,
+      "width": 672,
+      "height": 192,
+      "right": 1375.98
+    },
+    "measuredGap": 160,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02/viewport-1440x900.png"
+  },
+  "1280x720": {
+    "horizontalOverflow": false,
+    "documentScrollWidth": 1280,
+    "header": {
+      "left": 0,
+      "width": 1280,
+      "height": 74,
+      "right": 1280
+    },
+    "nav": {
+      "left": 763.92,
+      "width": 452.08,
+      "height": 60.39,
+      "right": 1216
+    },
+    "activeLink": {
+      "left": 763.92,
+      "width": 113.31,
+      "height": 45.5,
+      "right": 877.23
+    },
+    "activeColor": "rgb(76, 93, 255)",
+    "navTexts": [
+      "AI Text Detection",
+      "AI Image DetectionComing Soon",
+      "Plagiarism CheckComing Soon"
+    ],
+    "headerPosition": "relative",
+    "splitGapToken": "10rem",
+    "columnGapComputed": "160px",
+    "gridTemplateColumns": "413.328px 578.656px",
+    "left": {
+      "left": 64,
+      "width": 413.33,
+      "height": 192,
+      "right": 477.33
+    },
+    "right": {
+      "left": 637.33,
+      "width": 578.66,
+      "height": 192,
+      "right": 1215.98
+    },
+    "measuredGap": 160,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02/viewport-1280x720.png"
+  },
+  "1024x768": {
+    "horizontalOverflow": false,
+    "documentScrollWidth": 1024,
+    "header": {
+      "left": 0,
+      "width": 1024,
+      "height": 74,
+      "right": 1024
+    },
+    "nav": {
+      "left": 507.92,
+      "width": 452.08,
+      "height": 60.39,
+      "right": 960
+    },
+    "activeLink": {
+      "left": 507.92,
+      "width": 113.31,
+      "height": 45.5,
+      "right": 621.23
+    },
+    "activeColor": "rgb(76, 93, 255)",
+    "navTexts": [
+      "AI Text Detection",
+      "AI Image DetectionComing Soon",
+      "Plagiarism CheckComing Soon"
+    ],
+    "headerPosition": "relative",
+    "splitGapToken": "10rem",
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "896px",
+    "left": {
+      "left": 64,
+      "width": 896,
+      "height": 192,
+      "right": 960
+    },
+    "right": {
+      "left": 64,
+      "width": 896,
+      "height": 192,
+      "right": 960
+    },
+    "measuredGap": null,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02/viewport-1024x768.png"
+  },
+  "390x844": {
+    "horizontalOverflow": false,
+    "documentScrollWidth": 390,
+    "header": {
+      "left": 0,
+      "width": 390,
+      "height": 164.78,
+      "right": 390
+    },
+    "nav": {
+      "left": 64,
+      "width": 262,
+      "height": 99.78,
+      "right": 326
+    },
+    "activeLink": {
+      "left": 64,
+      "width": 97.13,
+      "height": 31,
+      "right": 161.13
+    },
+    "activeColor": "rgb(76, 93, 255)",
+    "navTexts": [
+      "AI Text Detection",
+      "AI Image DetectionComing Soon",
+      "Plagiarism CheckComing Soon"
+    ],
+    "headerPosition": "relative",
+    "splitGapToken": "10rem",
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "262px",
+    "left": {
+      "left": 64,
+      "width": 262,
+      "height": 192,
+      "right": 326
+    },
+    "right": {
+      "left": 64,
+      "width": 262,
+      "height": 192,
+      "right": 326
+    },
+    "measuredGap": null,
+    "columnsOverlap": false,
+    "screenshot": "artifacts/step-02/viewport-390x844.png"
+  }
+}

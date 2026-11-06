@@ -1,0 +1,108 @@
+{
+  "1440x900": {
+    "light": {
+      "theme": "light",
+      "logoSrc": "/src/assets/integrito-logo-black.svg",
+      "sunActive": true,
+      "moonActive": false,
+      "activeOptionBg": "rgb(26, 26, 24)",
+      "bodyBg": "rgb(248, 248, 247)",
+      "stageBg": "rgb(232, 238, 248)",
+      "headerBg": "rgb(248, 248, 247)",
+      "headerH": 62,
+      "logo": {
+        "w": 123.33,
+        "h": 28
+      },
+      "overflow": false,
+      "gap": "160px",
+      "tracks": "479.984px 672px",
+      "leftW": 479.98,
+      "rightW": 672,
+      "measuredGap": 160,
+      "svgCount": 2
+    },
+    "dark": {
+      "theme": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "sunActive": false,
+      "moonActive": true,
+      "activeOptionBg": "rgba(242, 241, 236, 0.976)",
+      "bodyBg": "rgb(18, 19, 17)",
+      "stageBg": "rgb(26, 31, 42)",
+      "headerBg": "rgb(18, 19, 17)",
+      "headerH": 62,
+      "logo": {
+        "w": 123.33,
+        "h": 28
+      },
+      "overflow": false,
+      "gap": "160px",
+      "tracks": "479.984px 672px",
+      "leftW": 479.98,
+      "rightW": 672,
+      "measuredGap": 160,
+      "svgCount": 2
+    },
+    "headerHeightDelta": 0,
+    "persisted": {
+      "stored": "dark",
+      "dataset": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "moonActive": true
+    }
+  },
+  "390x844": {
+    "light": {
+      "theme": "light",
+      "logoSrc": "/src/assets/integrito-logo-black.svg",
+      "sunActive": true,
+      "moonActive": false,
+      "activeOptionBg": "rgb(26, 26, 24)",
+      "bodyBg": "rgb(248, 248, 247)",
+      "stageBg": "rgb(232, 238, 248)",
+      "headerBg": "rgb(248, 248, 247)",
+      "headerH": 114,
+      "logo": {
+        "w": 105.7,
+        "h": 24
+      },
+      "overflow": false,
+      "gap": "0px",
+      "tracks": "262px",
+      "leftW": 262,
+      "rightW": 262,
+      "measuredGap": null,
+      "svgCount": 2
+    },
+    "dark": {
+      "theme": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "sunActive": false,
+      "moonActive": true,
+      "activeOptionBg": "rgba(242, 241, 236, 0.953)",
+      "bodyBg": "rgb(18, 19, 17)",
+      "stageBg": "rgb(26, 31, 42)",
+      "headerBg": "rgb(18, 19, 17)",
+      "headerH": 114,
+      "logo": {
+        "w": 105.7,
+        "h": 24
+      },
+      "overflow": false,
+      "gap": "0px",
+      "tracks": "262px",
+      "leftW": 262,
+      "rightW": 262,
+      "measuredGap": null,
+      "svgCount": 2
+    },
+    "headerHeightDelta": 0,
+    "persisted": {
+      "stored": "dark",
+      "dataset": "dark",
+      "logoSrc": "/src/assets/integrito-logo-white.svg",
+      "moonActive": true
+    }
+  }
+}

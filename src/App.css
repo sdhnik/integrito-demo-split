@@ -1,0 +1,10 @@
+.app {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.app__main {
+  /* Grow with children — no forced viewport min-height */
+  background-color: var(--color-bg);
+}

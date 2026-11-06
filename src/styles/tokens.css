@@ -1,0 +1,114 @@
+/**
+ * Integrito Split — design tokens
+ * Light / Dark via document.documentElement.dataset.theme.
+ */
+
+:root,
+[data-theme="light"] {
+  /* Typography */
+  --font-sans: "DM Sans", "Liberation Sans", "DejaVu Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "Liberation Mono", "DejaVu Sans Mono", ui-monospace, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  --weight-regular: 400;
+  /* Use 600 instead of 500 — medium faces were failing to load and collapsing text metrics */
+  --weight-medium: 600;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+
+  /* Radii & borders */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --border-width: 1px;
+
+  /* Motion (tokens only — no animations yet) */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /*
+   * Layout — ESTIMATES from Reference 01 (≈1440 CSS-px / 3× artboard).
+   * --content-max: 1440px cap (stage is full-bleed; shell pads from viewport)
+   * --shell-pad-x ≈ 64px outer inset (estimate)
+   * --split-gap: 10rem desktop gutter (Step 1.1); tracks unchanged
+   * --header-height: reserved for future Hero min-height calc (Header not implemented)
+   */
+  --content-max: 90rem;
+  --shell-pad-x: 4rem;
+  --shell-pad-y: var(--space-8);
+  --split-gap: 10rem;
+  /*
+   * Fallback until Header ResizeObserver publishes the real value.
+   * Runtime sets --header-height in px from rendered Header geometry.
+   */
+  --header-height: 3.5rem;
+
+  /* Light theme (active) */
+  --color-bg: #f8f8f7;
+  --color-bg-elevated: #ffffff;
+  --color-surface: #eeede8;
+  --color-border: #d8d5cc;
+  --color-header-bg: #f8f8f7;
+  --color-header-border: #e4e4e2;
+  --color-text: #1a1a18;
+  --color-text-muted: #696f8c;
+  /* Integrito brand blue (Reference 01 / logo family) — Header-critical */
+  --color-brand: #4c5dff;
+  --color-accent: #4c5dff;
+  --color-accent-hover: #3a48e0;
+  --color-accent-contrast: #ffffff;
+  --color-focus: #4c5dff;
+  /* Debug placeholders (theme-aware) */
+  --color-debug-stage: #e8eef8;
+  --color-debug-left-bg: rgba(37, 99, 235, 0.18);
+  --color-debug-left-fg: #1e3a5f;
+  --color-debug-left-border: rgba(37, 99, 235, 0.55);
+  --color-debug-right-bg: rgba(168, 85, 247, 0.2);
+  --color-debug-right-fg: #5b21b6;
+  --color-debug-right-border: rgba(126, 34, 206, 0.55);
+}
+
+[data-theme="dark"] {
+  --color-bg: #121311;
+  --color-bg-elevated: #1c1d1a;
+  --color-surface: #262722;
+  --color-border: #3a3b35;
+  --color-header-bg: #121311;
+  --color-header-border: #3a3b35;
+  --color-text: #f2f1ec;
+  --color-text-muted: #a8a69c;
+  --color-brand: #7b87ff;
+  --color-accent: #7b87ff;
+  --color-accent-hover: #9aa3ff;
+  --color-accent-contrast: #0a0c1f;
+  --color-focus: #7b87ff;
+  --color-debug-stage: #1a1f2a;
+  --color-debug-left-bg: rgba(96, 165, 250, 0.16);
+  --color-debug-left-fg: #bfdbfe;
+  --color-debug-left-border: rgba(96, 165, 250, 0.45);
+  --color-debug-right-bg: rgba(196, 181, 253, 0.16);
+  --color-debug-right-fg: #ddd6fe;
+  --color-debug-right-border: rgba(167, 139, 250, 0.45);
+}

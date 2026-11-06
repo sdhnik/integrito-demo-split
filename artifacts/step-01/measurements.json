@@ -1,0 +1,214 @@
+{
+  "1440x900": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "documentScrollWidth": 1440,
+    "horizontalOverflow": false,
+    "stage": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 900,
+      "right": 1440
+    },
+    "container": {
+      "left": 0,
+      "top": 0,
+      "width": 1440,
+      "height": 544,
+      "right": 1440
+    },
+    "grid": {
+      "left": 64,
+      "top": 48,
+      "width": 1312,
+      "height": 448,
+      "right": 1376
+    },
+    "left": {
+      "left": 64,
+      "top": 48,
+      "width": 426.66,
+      "height": 448,
+      "right": 490.66
+    },
+    "right": {
+      "left": 778.66,
+      "top": 48,
+      "width": 597.34,
+      "height": 448,
+      "right": 1376
+    },
+    "columnGapComputed": "288px",
+    "gridTemplateColumns": "426.656px 597.344px",
+    "overlap": {
+      "xOverlap": 0,
+      "yOverlap": 448,
+      "columnsOverlap": false
+    },
+    "measuredGap": 288,
+    "stacked": false,
+    "screenshot": "artifacts/step-01/viewport-1440x900.png"
+  },
+  "1280x720": {
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documentScrollWidth": 1280,
+    "horizontalOverflow": false,
+    "stage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "right": 1280
+    },
+    "container": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 544,
+      "right": 1280
+    },
+    "grid": {
+      "left": 64,
+      "top": 48,
+      "width": 1152,
+      "height": 448,
+      "right": 1216
+    },
+    "left": {
+      "left": 64,
+      "top": 48,
+      "width": 360,
+      "height": 448,
+      "right": 424
+    },
+    "right": {
+      "left": 712,
+      "top": 48,
+      "width": 504,
+      "height": 448,
+      "right": 1216
+    },
+    "columnGapComputed": "288px",
+    "gridTemplateColumns": "360px 504px",
+    "overlap": {
+      "xOverlap": 0,
+      "yOverlap": 448,
+      "columnsOverlap": false
+    },
+    "measuredGap": 288,
+    "stacked": false,
+    "screenshot": "artifacts/step-01/viewport-1280x720.png"
+  },
+  "1024x768": {
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    },
+    "documentScrollWidth": 1024,
+    "horizontalOverflow": false,
+    "stage": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 768,
+      "right": 1024
+    },
+    "container": {
+      "left": 0,
+      "top": 0,
+      "width": 1024,
+      "height": 504,
+      "right": 1024
+    },
+    "grid": {
+      "left": 64,
+      "top": 48,
+      "width": 896,
+      "height": 408,
+      "right": 960
+    },
+    "left": {
+      "left": 64,
+      "top": 48,
+      "width": 896,
+      "height": 192,
+      "right": 960
+    },
+    "right": {
+      "left": 64,
+      "top": 264,
+      "width": 896,
+      "height": 192,
+      "right": 960
+    },
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "896px",
+    "overlap": {
+      "xOverlap": 896,
+      "yOverlap": 0,
+      "columnsOverlap": false
+    },
+    "measuredGap": null,
+    "stacked": true,
+    "screenshot": "artifacts/step-01/viewport-1024x768.png"
+  },
+  "390x844": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentScrollWidth": 390,
+    "horizontalOverflow": false,
+    "stage": {
+      "left": 0,
+      "top": 0,
+      "width": 390,
+      "height": 844,
+      "right": 390
+    },
+    "container": {
+      "left": 0,
+      "top": 0,
+      "width": 390,
+      "height": 504,
+      "right": 390
+    },
+    "grid": {
+      "left": 64,
+      "top": 48,
+      "width": 262,
+      "height": 408,
+      "right": 326
+    },
+    "left": {
+      "left": 64,
+      "top": 48,
+      "width": 262,
+      "height": 192,
+      "right": 326
+    },
+    "right": {
+      "left": 64,
+      "top": 264,
+      "width": 262,
+      "height": 192,
+      "right": 326
+    },
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "262px",
+    "overlap": {
+      "xOverlap": 262,
+      "yOverlap": 0,
+      "columnsOverlap": false
+    },
+    "measuredGap": null,
+    "stacked": true,
+    "screenshot": "artifacts/step-01/viewport-390x844.png"
+  }
+}

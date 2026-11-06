@@ -1,0 +1,258 @@
+{
+  "1440x900": {
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "svh": 900
+    },
+    "documentScrollWidth": 1440,
+    "horizontalOverflow": false,
+    "splitGapToken": "10rem",
+    "columnGapComputed": "160px",
+    "gridTemplateColumns": "479.984px 672px",
+    "stageMinHeight": "0px",
+    "stageHeight": 900,
+    "sectionMinHeight": "900px",
+    "sectionDisplay": "flex",
+    "sectionJustifyContent": "center",
+    "sectionFlexDirection": "column",
+    "section": {
+      "left": 64,
+      "top": 0,
+      "width": 1312,
+      "height": 900,
+      "right": 1376,
+      "bottom": 900
+    },
+    "grid": {
+      "left": 64,
+      "top": 354,
+      "width": 1312,
+      "height": 192,
+      "right": 1376,
+      "bottom": 546
+    },
+    "left": {
+      "left": 64,
+      "top": 354,
+      "width": 479.98,
+      "height": 192,
+      "right": 543.98,
+      "bottom": 546
+    },
+    "right": {
+      "left": 703.98,
+      "top": 354,
+      "width": 672,
+      "height": 192,
+      "right": 1375.98,
+      "bottom": 546
+    },
+    "verticalRhythm": {
+      "gapAbove": 354,
+      "gapBelow": 354,
+      "delta": 0,
+      "verticallyCenteredApprox": true
+    },
+    "overlap": {
+      "xOverlap": 0,
+      "yOverlap": 192,
+      "columnsOverlap": false
+    },
+    "measuredGap": 160,
+    "stacked": false,
+    "screenshot": "artifacts/step-01-1/viewport-1440x900.png"
+  },
+  "1280x720": {
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "svh": 720
+    },
+    "documentScrollWidth": 1280,
+    "horizontalOverflow": false,
+    "splitGapToken": "10rem",
+    "columnGapComputed": "160px",
+    "gridTemplateColumns": "413.328px 578.656px",
+    "stageMinHeight": "0px",
+    "stageHeight": 720,
+    "sectionMinHeight": "720px",
+    "sectionDisplay": "flex",
+    "sectionJustifyContent": "center",
+    "sectionFlexDirection": "column",
+    "section": {
+      "left": 64,
+      "top": 0,
+      "width": 1152,
+      "height": 720,
+      "right": 1216,
+      "bottom": 720
+    },
+    "grid": {
+      "left": 64,
+      "top": 264,
+      "width": 1152,
+      "height": 192,
+      "right": 1216,
+      "bottom": 456
+    },
+    "left": {
+      "left": 64,
+      "top": 264,
+      "width": 413.33,
+      "height": 192,
+      "right": 477.33,
+      "bottom": 456
+    },
+    "right": {
+      "left": 637.33,
+      "top": 264,
+      "width": 578.66,
+      "height": 192,
+      "right": 1215.98,
+      "bottom": 456
+    },
+    "verticalRhythm": {
+      "gapAbove": 264,
+      "gapBelow": 264,
+      "delta": 0,
+      "verticallyCenteredApprox": true
+    },
+    "overlap": {
+      "xOverlap": 0,
+      "yOverlap": 192,
+      "columnsOverlap": false
+    },
+    "measuredGap": 160,
+    "stacked": false,
+    "screenshot": "artifacts/step-01-1/viewport-1280x720.png"
+  },
+  "1024x768": {
+    "viewport": {
+      "width": 1024,
+      "height": 768,
+      "svh": 768
+    },
+    "documentScrollWidth": 1024,
+    "horizontalOverflow": false,
+    "splitGapToken": "10rem",
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "896px",
+    "stageMinHeight": "0px",
+    "stageHeight": 768,
+    "sectionMinHeight": "768px",
+    "sectionDisplay": "flex",
+    "sectionJustifyContent": "center",
+    "sectionFlexDirection": "column",
+    "section": {
+      "left": 64,
+      "top": 0,
+      "width": 896,
+      "height": 768,
+      "right": 960,
+      "bottom": 768
+    },
+    "grid": {
+      "left": 64,
+      "top": 180,
+      "width": 896,
+      "height": 408,
+      "right": 960,
+      "bottom": 588
+    },
+    "left": {
+      "left": 64,
+      "top": 180,
+      "width": 896,
+      "height": 192,
+      "right": 960,
+      "bottom": 372
+    },
+    "right": {
+      "left": 64,
+      "top": 396,
+      "width": 896,
+      "height": 192,
+      "right": 960,
+      "bottom": 588
+    },
+    "verticalRhythm": {
+      "gapAbove": 180,
+      "gapBelow": 180,
+      "delta": 0,
+      "verticallyCenteredApprox": true
+    },
+    "overlap": {
+      "xOverlap": 896,
+      "yOverlap": 0,
+      "columnsOverlap": false
+    },
+    "measuredGap": null,
+    "stacked": true,
+    "screenshot": "artifacts/step-01-1/viewport-1024x768.png"
+  },
+  "390x844": {
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "svh": 844
+    },
+    "documentScrollWidth": 390,
+    "horizontalOverflow": false,
+    "splitGapToken": "10rem",
+    "columnGapComputed": "0px",
+    "gridTemplateColumns": "262px",
+    "stageMinHeight": "0px",
+    "stageHeight": 844,
+    "sectionMinHeight": "844px",
+    "sectionDisplay": "flex",
+    "sectionJustifyContent": "center",
+    "sectionFlexDirection": "column",
+    "section": {
+      "left": 64,
+      "top": 0,
+      "width": 262,
+      "height": 844,
+      "right": 326,
+      "bottom": 844
+    },
+    "grid": {
+      "left": 64,
+      "top": 218,
+      "width": 262,
+      "height": 408,
+      "right": 326,
+      "bottom": 626
+    },
+    "left": {
+      "left": 64,
+      "top": 218,
+      "width": 262,
+      "height": 192,
+      "right": 326,
+      "bottom": 410
+    },
+    "right": {
+      "left": 64,
+      "top": 434,
+      "width": 262,
+      "height": 192,
+      "right": 326,
+      "bottom": 626
+    },
+    "verticalRhythm": {
+      "gapAbove": 218,
+      "gapBelow": 218,
+      "delta": 0,
+      "verticallyCenteredApprox": true
+    },
+    "overlap": {
+      "xOverlap": 262,
+      "yOverlap": 0,
+      "columnsOverlap": false
+    },
+    "measuredGap": null,
+    "stacked": true,
+    "screenshot": "artifacts/step-01-1/viewport-390x844.png"
+  }
+}

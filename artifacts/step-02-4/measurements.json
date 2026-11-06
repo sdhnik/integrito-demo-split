@@ -1,0 +1,18 @@
+{
+  "track": {
+    "w": 55.1875,
+    "h": 29.1875,
+    "bg": "rgb(28, 29, 27)",
+    "border": "rgb(65, 66, 61)"
+  },
+  "option": {
+    "w": 20.796875,
+    "h": 20.796875
+  },
+  "active": {
+    "bg": "rgba(242, 241, 236, 0.957)",
+    "color": "rgb(120, 121, 125)"
+  },
+  "theme": "dark",
+  "logo": "/src/assets/integrito-logo-white.svg"
+}

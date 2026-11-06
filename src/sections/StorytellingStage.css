@@ -1,0 +1,75 @@
+/**
+ * Split layout skeleton + Step 1.1 rhythm.
+ *
+ * Spiral is NOT rendered. Stage remains full-width so a future
+ * ~140–150vw SpiralLayer can sit as a sibling of .content-container.
+ * No overflow clipping — preserves future position:sticky.
+ *
+ * .storytelling-stage has NO 100svh — height comes from editorial sections.
+ */
+
+.storytelling-stage {
+  position: relative;
+  width: 100%;
+  /* Debug surface — temporary, theme-aware */
+  background-color: var(--color-debug-stage);
+}
+
+.content-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--shell-pad-x);
+  /* Vertical rhythm owned by .editorial-section — no padding-block here */
+}
+
+.split-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  column-gap: var(--split-gap);
+  align-items: stretch;
+  width: 100%;
+}
+
+.left-column,
+.right-column {
+  min-width: 0;
+}
+
+.layout-placeholder {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 12rem;
+  padding: var(--space-5);
+  border: 2px dashed currentColor;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+/* Temporary debugging colors — theme-aware, not brand UI */
+.layout-placeholder--left {
+  color: var(--color-debug-left-fg);
+  background-color: var(--color-debug-left-bg);
+  border-color: var(--color-debug-left-border);
+}
+
+.layout-placeholder--right {
+  color: var(--color-debug-right-fg);
+  background-color: var(--color-debug-right-bg);
+  border-color: var(--color-debug-right-border);
+}
+
+/* Narrow viewports: stack only — not a final mobile design */
+@media (max-width: 1199px) {
+  .split-grid {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: var(--space-5);
+    column-gap: 0;
+  }
+}
