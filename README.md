@@ -18,6 +18,8 @@ Public preview URL (project site):
 
 Workflow: [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml)
 
+**Indexing:** The preview ships with `<meta name="robots" content="noindex, nofollow" />` so search engines do not index this demo. This is temporary — remove that meta tag when launching the production website. Do not block crawlers with `robots.txt`; they need to read the HTML to see `noindex`.
+
 ### Required repository settings
 
 1. **Settings → Pages → Build and deployment → Source:** GitHub Actions  
