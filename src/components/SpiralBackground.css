@@ -1,0 +1,201 @@
+/**
+ * Step 5.3 — Stage-peer typography spiral (viewport/scene-sized).
+ * Mounted inside .spiral-sticky-track (absolute inset on StorytellingStage).
+ *
+ * Desktop: position sticky within the track — stays in view while the stage
+ * scrolls, releases at the same stage boundary as WorkspaceRail.
+ * Stacked: absolute (non-sticky) at the top of the stage.
+ *
+ * Soft L→R / vertical masks attenuate spiral behind editorial copy.
+ */
+
+.spiral-background {
+  position: sticky;
+  /* Sit below the globally sticky Header (Step 5.3.1) */
+  top: var(--header-height);
+  left: 0;
+  width: 100%;
+  /* Scene-sized — independent of multi-section stage growth */
+  height: calc(100svh - var(--header-height));
+  z-index: 0;
+  pointer-events: none;
+  overflow: clip;
+  opacity: 0.36;
+  /*
+    Desktop: keep far-left soft for the hero, full presence mid→right
+    (aligned with Original landing L→R fade intent).
+  */
+  -webkit-mask-image:
+    linear-gradient(
+      90deg,
+      #00000000 0%,
+      #0000000c 12%,
+      #00000028 24%,
+      #00000070 40%,
+      #000000c8 56%,
+      #000 72%
+    ),
+    linear-gradient(
+      to bottom,
+      #00000028 0%,
+      #00000090 10%,
+      #000 18%,
+      #000 78%,
+      #00000090 92%,
+      #00000040 100%
+    );
+  mask-image:
+    linear-gradient(
+      90deg,
+      #00000000 0%,
+      #0000000c 12%,
+      #00000028 24%,
+      #00000070 40%,
+      #000000c8 56%,
+      #000 72%
+    ),
+    linear-gradient(
+      to bottom,
+      #00000028 0%,
+      #00000090 10%,
+      #000 18%,
+      #000 78%,
+      #00000090 92%,
+      #00000040 100%
+    );
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+
+[data-theme="dark"] .spiral-background {
+  opacity: 0.44;
+}
+
+/*
+  Oversized paint ~145vw — center biased right via bake geometry.
+  Clip is on this layer only (not the sticky boundary ancestor).
+*/
+.spiral-background__canvas {
+  position: absolute;
+  top: -18%;
+  left: -10%;
+  width: 145vw;
+  height: 136%;
+  max-width: none;
+  display: block;
+  pointer-events: none;
+}
+
+/* Stacked: no sticky spiral — absolute at stage top (normal document flow for content) */
+@media (max-width: 1199px) {
+  .spiral-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.22;
+    -webkit-mask-image:
+      linear-gradient(
+        90deg,
+        #00000000 0%,
+        #00000000 36%,
+        #00000008 48%,
+        #00000032 60%,
+        #00000090 76%,
+        #000 90%
+      ),
+      linear-gradient(
+        to bottom,
+        #00000014 0%,
+        #00000060 10%,
+        #000 20%,
+        #000 78%,
+        #00000060 92%,
+        #00000022 100%
+      );
+    mask-image:
+      linear-gradient(
+        90deg,
+        #00000000 0%,
+        #00000000 36%,
+        #00000008 48%,
+        #00000032 60%,
+        #00000090 76%,
+        #000 90%
+      ),
+      linear-gradient(
+        to bottom,
+        #00000014 0%,
+        #00000060 10%,
+        #000 20%,
+        #000 78%,
+        #00000060 92%,
+        #00000022 100%
+      );
+  }
+
+  [data-theme="dark"] .spiral-background {
+    opacity: 0.3;
+  }
+
+  .spiral-background__canvas {
+    top: -10%;
+    left: 12%;
+    width: 152vw;
+    height: 124%;
+  }
+}
+
+@media (max-width: 760px) {
+  .spiral-background {
+    opacity: 0.22;
+    -webkit-mask-image:
+      linear-gradient(
+        90deg,
+        #00000000 0%,
+        #00000000 20%,
+        #00000012 40%,
+        #00000055 62%,
+        #000000c0 80%,
+        #000 94%
+      ),
+      linear-gradient(
+        to bottom,
+        #00000014 0%,
+        #00000060 8%,
+        #000 14%,
+        #000 84%,
+        #00000060 94%,
+        #00000022 100%
+      );
+    mask-image:
+      linear-gradient(
+        90deg,
+        #00000000 0%,
+        #00000000 20%,
+        #00000012 40%,
+        #00000055 62%,
+        #000000c0 80%,
+        #000 94%
+      ),
+      linear-gradient(
+        to bottom,
+        #00000014 0%,
+        #00000060 8%,
+        #000 14%,
+        #000 84%,
+        #00000060 94%,
+        #00000022 100%
+      );
+  }
+
+  [data-theme="dark"] .spiral-background {
+    opacity: 0.3;
+  }
+
+  .spiral-background__canvas {
+    top: -8%;
+    left: 4%;
+    width: 152vw;
+    height: 118%;
+  }
+}

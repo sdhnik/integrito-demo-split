@@ -1,0 +1,37 @@
+{
+  "tests": {
+    "A_step1": true,
+    "A_step2": true,
+    "A_step3": true,
+    "B_score": true,
+    "B_classification": true,
+    "C_highlights": true,
+    "D_backProcessing": true,
+    "E_focusHidesResult": true,
+    "E_detail": {
+      "isDemo": false,
+      "isResult": false,
+      "hasTextarea": true
+    },
+    "F_blurRestoresResult": true,
+    "G_userBlocksDemo": true,
+    "darkResult": true,
+    "compact1280": true,
+    "H_reducedMotion": true
+  },
+  "geometry": {
+    "promptH": {
+      "step1": 468,
+      "step2": 468,
+      "step3": 468,
+      "delta13": 0,
+      "delta23": 0
+    },
+    "overlap": false,
+    "overflowX": false,
+    "compact1280_promptH": 374
+  },
+  "mobile": {
+    "noAutoResult": true
+  }
+}

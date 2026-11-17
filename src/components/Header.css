@@ -1,11 +1,14 @@
 /**
- * Header — Step 2.2
+ * Header — typography normalized Step 3.2.5.
  * Flex: left (logo + nav) | right (actions). Theme-aware surfaces.
  * Height is content-driven; JS publishes --header-height.
+ *
+ * Step 5.3.1 — sticky for the full page (above Stage stickies).
  */
 
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 10;
   width: 100%;
   background-color: var(--color-header-bg);
@@ -59,9 +62,9 @@
   flex-shrink: 0;
   padding-block: var(--space-2);
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  font-weight: 400;
-  line-height: var(--leading-tight);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-ui);
   color: var(--color-text-muted);
   white-space: nowrap;
   background: none;
@@ -71,7 +74,7 @@
 }
 
 .site-header__link--active {
-  font-weight: 600;
+  font-weight: var(--weight-semibold);
   color: var(--color-brand);
 }
 
@@ -90,8 +93,9 @@
 .site-header__login {
   padding: var(--space-2) var(--space-3);
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  font-weight: 400;
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-ui);
   color: var(--color-text-muted);
   background: none;
   border: none;
@@ -107,8 +111,9 @@
 .site-header__signup {
   padding: 0.45rem 1rem;
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  font-weight: 600;
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-ui);
   color: var(--color-accent-contrast);
   background-color: var(--color-brand);
   border: none;
@@ -164,18 +169,18 @@
     height: 1.5rem;
   }
 
+  /* Compact product nav only — keep auth interactive at 16px */
   .site-header__link {
-    font-size: var(--text-xs);
+    font-size: var(--text-meta);
+    line-height: var(--leading-meta);
     padding-block: var(--space-1);
   }
 
   .site-header__login {
     padding-inline: var(--space-2);
-    font-size: var(--text-xs);
   }
 
   .site-header__signup {
     padding: 0.35rem 0.75rem;
-    font-size: var(--text-xs);
   }
 }

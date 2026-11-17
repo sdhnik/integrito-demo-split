@@ -1,0 +1,47 @@
+{
+  "expanded1440": {
+    "textareaHeight": 144,
+    "maxHeight": "144px",
+    "overflowY": "auto",
+    "countText": "192 / 3,000 words · ≈ 1 page",
+    "leftUnchanged": true,
+    "heroRight": 543.984375,
+    "composerLeft": 735.984375,
+    "overlap": false,
+    "overflowX": false,
+    "headerH": 64
+  },
+  "afterDetect": {
+    "textLen": 1058,
+    "status": "Your words stay in your browser in this preview.",
+    "hasReport": false
+  },
+  "1920x1080": {
+    "overflowX": false,
+    "headerH": 64,
+    "taH": 48,
+    "composerW": 640,
+    "leftW": 479.984375
+  },
+  "1440x900": {
+    "overflowX": false,
+    "headerH": 64,
+    "taH": 48,
+    "composerW": 640,
+    "leftW": 479.984375
+  },
+  "1280x720": {
+    "overflowX": false,
+    "headerH": 64,
+    "taH": 48,
+    "composerW": 578.65625,
+    "leftW": 413.328125
+  },
+  "390x844": {
+    "overflowX": false,
+    "headerH": 119,
+    "taH": 48,
+    "composerW": 262,
+    "leftW": 262
+  }
+}

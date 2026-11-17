@@ -1,0 +1,43 @@
+.composer-expand-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  background: color-mix(in srgb, #0a0a0c 42%, transparent);
+  opacity: 0;
+  animation: composer-expand-backdrop-in 250ms ease-out forwards;
+}
+
+.composer-expand-backdrop.is-exiting {
+  animation: composer-expand-backdrop-out 250ms ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes composer-expand-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes composer-expand-backdrop-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .composer-expand-backdrop,
+  .composer-expand-backdrop.is-exiting {
+    animation: none;
+    opacity: 1;
+  }
+
+  .composer-expand-backdrop.is-exiting {
+    opacity: 0;
+  }
+}

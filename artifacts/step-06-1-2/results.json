@@ -1,0 +1,14 @@
+{
+  "atStep1Demo": true,
+  "focusHidesDemo": true,
+  "blurEmptyRestoresDemo": true,
+  "blurWithTextNoDemo": true,
+  "focusedEmptyNoDemo": true,
+  "clearAllBlurRestoresDemo": true,
+  "afterClearStillFocusedNoDemo": true,
+  "pasteClearBlurRestoresDemo": true,
+  "heroEmptyNoDemo": true,
+  "mobileNoAutoDemo": true,
+  "mobileBlurStillNoDemo": true,
+  "tabletNoAutoDemo": true
+}

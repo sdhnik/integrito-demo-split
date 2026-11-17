@@ -1,0 +1,50 @@
+{
+  "1920x1080": {
+    "titleFont": "44px",
+    "titleWeight": "600",
+    "titleLines": 2,
+    "ledeMaxWidth": "302.547px",
+    "ledeWidth": 302.5,
+    "leftWidth": 480,
+    "ledeUsesColumn": false,
+    "overlapsRight": false,
+    "overflowX": false,
+    "centerDelta": 0
+  },
+  "1440x900": {
+    "titleFont": "43.2px",
+    "titleWeight": "600",
+    "titleLines": 2,
+    "ledeMaxWidth": "302.547px",
+    "ledeWidth": 302.5,
+    "leftWidth": 480,
+    "ledeUsesColumn": false,
+    "overlapsRight": false,
+    "overflowX": false,
+    "centerDelta": 0
+  },
+  "1280x720": {
+    "titleFont": "38.4px",
+    "titleWeight": "600",
+    "titleLines": 2,
+    "ledeMaxWidth": "302.547px",
+    "ledeWidth": 302.5,
+    "leftWidth": 413.3,
+    "ledeUsesColumn": false,
+    "overlapsRight": false,
+    "overflowX": false,
+    "centerDelta": 0
+  },
+  "390x844": {
+    "titleFont": "33.15px",
+    "titleWeight": "600",
+    "titleLines": 2,
+    "ledeMaxWidth": "none",
+    "ledeWidth": 262,
+    "leftWidth": 262,
+    "ledeUsesColumn": true,
+    "overlapsRight": true,
+    "overflowX": false,
+    "centerDelta": -108
+  }
+}

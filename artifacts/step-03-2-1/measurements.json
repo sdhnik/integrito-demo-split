@@ -1,0 +1,45 @@
+{
+  "390": {
+    "empty": {
+      "promptH": 320.7,
+      "composerW": 262,
+      "taH": 220,
+      "toolbarInCard": true,
+      "overflowX": false
+    },
+    "filled": {
+      "promptH": 320.7,
+      "scrolls": true
+    },
+    "heightStable": true
+  },
+  "1280": {
+    "promptH": 374.4,
+    "overflowX": false
+  },
+  "1440-light": {
+    "empty": {
+      "promptH": 468,
+      "taH": 380,
+      "overflowY": "auto",
+      "toolbarBottom": 678.1,
+      "promptBottom": 693.1,
+      "heroTop": 360,
+      "overflowX": false
+    },
+    "filled": {
+      "promptH": 468,
+      "taH": 380,
+      "scrollHeight": 2856,
+      "clientHeight": 380,
+      "scrollsInternally": true,
+      "overflowY": "auto",
+      "toolbarBottom": 678.1,
+      "promptBottom": 693.1,
+      "heroTop": 360,
+      "overflowX": false
+    },
+    "heightStable": true,
+    "heroStable": true
+  }
+}

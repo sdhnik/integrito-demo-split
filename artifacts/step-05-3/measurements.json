@@ -1,0 +1,186 @@
+{
+  "1920x1080": {
+    "light": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "sticky",
+      "spiralPos": "sticky",
+      "overflowX": false
+    },
+    "dark": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "sticky",
+      "spiralPos": "sticky",
+      "overflowX": false
+    }
+  },
+  "1440x900": {
+    "light": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "sticky",
+      "spiralPos": "sticky",
+      "overflowX": false
+    },
+    "dark": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "sticky",
+      "spiralPos": "sticky",
+      "overflowX": false
+    }
+  },
+  "1280x720": {
+    "light": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "sticky",
+      "spiralPos": "sticky",
+      "overflowX": false
+    },
+    "dark": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "sticky",
+      "spiralPos": "sticky",
+      "overflowX": false
+    }
+  },
+  "768x1024": {
+    "light": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "static",
+      "spiralPos": "absolute",
+      "overflowX": false
+    },
+    "dark": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "static",
+      "spiralPos": "absolute",
+      "overflowX": false
+    }
+  },
+  "390x844": {
+    "light": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "static",
+      "spiralPos": "absolute",
+      "overflowX": false
+    },
+    "dark": {
+      "compare": {
+        "h1Top": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralH": 0
+      },
+      "railPos": "static",
+      "spiralPos": "absolute",
+      "overflowX": false
+    }
+  },
+  "scroll1440": {
+    "A": {
+      "scrollY": 0,
+      "railTop": 64,
+      "spiralTop": 64,
+      "composerTop": 207.2
+    },
+    "B": {
+      "scrollY": 900,
+      "railTop": 0,
+      "spiralTop": 0,
+      "composerTop": 143.2,
+      "stageBottom": 900
+    },
+    "C": {
+      "scrollY": 860,
+      "railTop": 0,
+      "spiralTop": 0,
+      "railBottom": 836,
+      "spiralBottom": 836,
+      "stageBottom": 940
+    },
+    "D": {
+      "scrollY": 900,
+      "railTop": 0,
+      "spiralTop": 0,
+      "stageBottom": 900
+    },
+    "stickyAtB": true,
+    "bothVisibleAtB": true,
+    "releasedTogetherAtD": false,
+    "canvasStable": true,
+    "textareaOk": true
+  },
+  "releaseProbe": {
+    "C": {
+      "stageBottom": 880,
+      "railTop": 0,
+      "spiralTop": 0,
+      "railBottom": 836,
+      "spiralBottom": 836,
+      "stillStuck": true,
+      "aligned": true
+    },
+    "D": {
+      "scrollY": 1980,
+      "stageBottom": -180,
+      "railTop": -1016,
+      "railBottom": -180,
+      "spiralTop": -1016,
+      "spiralBottom": -180,
+      "bothLeft": true
+    }
+  }
+}

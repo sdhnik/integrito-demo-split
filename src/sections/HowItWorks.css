@@ -1,0 +1,54 @@
+/**
+ * How It Works — section chrome + steps (Reference 01).
+ * Content width matches Brand Intro editorial column.
+ */
+
+.how-it-works {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 36rem;
+}
+
+.how-it-works__header {
+  padding-block-end: var(--space-6);
+  border-block-end: var(--border-width) solid var(--color-border);
+}
+
+.how-it-works__label {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  font-weight: var(--weight-regular);
+  letter-spacing: 0.04em;
+  line-height: var(--leading-meta);
+  color: var(--color-text);
+  text-transform: uppercase;
+}
+
+.how-it-works__title {
+  margin: var(--space-4) 0 0;
+  font-family: var(--font-sans);
+  font-weight: var(--weight-semibold);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.how-it-works .how-it-works-step {
+  margin-top: var(--space-8);
+}
+
+@media (min-width: 768px) {
+  .how-it-works__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-it-works__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

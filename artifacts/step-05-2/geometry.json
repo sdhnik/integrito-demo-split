@@ -1,0 +1,496 @@
+{
+  "after": {
+    "1920x1080": {
+      "light": {
+        "h1": {
+          "top": 446,
+          "left": 304,
+          "h": 144
+        },
+        "composer": {
+          "top": 261.2,
+          "left": 976,
+          "h": 621.6,
+          "w": 640
+        },
+        "promptH": 540,
+        "spiralWrap": {
+          "h": 1016,
+          "w": 1920
+        },
+        "canvasBuf": [
+          2784,
+          1382
+        ],
+        "canvasCssH": "1381.75px",
+        "stageH": 2096,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1546,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 1080,
+          "sectionMinH": "1080px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      },
+      "dark": {
+        "h1": {
+          "top": 446,
+          "left": 304,
+          "h": 144
+        },
+        "composer": {
+          "top": 261.2,
+          "left": 976,
+          "h": 621.6,
+          "w": 640
+        },
+        "promptH": 540,
+        "spiralWrap": {
+          "h": 1016,
+          "w": 1920
+        },
+        "canvasBuf": [
+          2784,
+          1382
+        ],
+        "canvasCssH": "1381.75px",
+        "stageH": 2096,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1546,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 1080,
+          "sectionMinH": "1080px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      }
+    },
+    "1440x900": {
+      "light": {
+        "h1": {
+          "top": 360,
+          "left": 64,
+          "h": 136
+        },
+        "composer": {
+          "top": 207.2,
+          "left": 736,
+          "h": 549.6,
+          "w": 640
+        },
+        "promptH": 468,
+        "spiralWrap": {
+          "h": 836,
+          "w": 1440
+        },
+        "canvasBuf": [
+          2088,
+          1137
+        ],
+        "canvasCssH": "1136.95px",
+        "stageH": 1736,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1278,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 900,
+          "sectionMinH": "900px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      },
+      "dark": {
+        "h1": {
+          "top": 360,
+          "left": 64,
+          "h": 136
+        },
+        "composer": {
+          "top": 207.2,
+          "left": 736,
+          "h": 549.6,
+          "w": 640
+        },
+        "promptH": 468,
+        "spiralWrap": {
+          "h": 836,
+          "w": 1440
+        },
+        "canvasBuf": [
+          2088,
+          1137
+        ],
+        "canvasCssH": "1136.95px",
+        "stageH": 1736,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1278,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 900,
+          "sectionMinH": "900px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      }
+    },
+    "1280x720": {
+      "light": {
+        "h1": {
+          "top": 260,
+          "left": 64,
+          "h": 128
+        },
+        "composer": {
+          "top": 164,
+          "left": 637.3,
+          "h": 456,
+          "w": 578.7
+        },
+        "promptH": 374.4,
+        "spiralWrap": {
+          "h": 656,
+          "w": 1280
+        },
+        "canvasBuf": [
+          1856,
+          892
+        ],
+        "canvasCssH": "892.156px",
+        "stageH": 1376,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1008,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 720,
+          "sectionMinH": "720px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      },
+      "dark": {
+        "h1": {
+          "top": 260,
+          "left": 64,
+          "h": 128
+        },
+        "composer": {
+          "top": 164,
+          "left": 637.3,
+          "h": 456,
+          "w": 578.7
+        },
+        "promptH": 374.4,
+        "spiralWrap": {
+          "h": 656,
+          "w": 1280
+        },
+        "canvasBuf": [
+          1856,
+          892
+        ],
+        "canvasCssH": "892.156px",
+        "stageH": 1376,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1008,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 720,
+          "sectionMinH": "720px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      }
+    },
+    "768x1024": {
+      "light": {
+        "h1": {
+          "top": 189.2,
+          "left": 64,
+          "h": 104
+        },
+        "composer": {
+          "top": 425.2,
+          "left": 64,
+          "h": 501.6,
+          "w": 640
+        },
+        "promptH": 420,
+        "spiralWrap": {
+          "h": 932,
+          "w": 768
+        },
+        "canvasBuf": [
+          1167,
+          1156
+        ],
+        "canvasCssH": "1155.67px",
+        "stageH": 1956,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1468,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 1024,
+          "sectionMinH": "1024px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      },
+      "dark": {
+        "h1": {
+          "top": 189.2,
+          "left": 64,
+          "h": 104
+        },
+        "composer": {
+          "top": 425.2,
+          "left": 64,
+          "h": 501.6,
+          "w": 640
+        },
+        "promptH": 420,
+        "spiralWrap": {
+          "h": 932,
+          "w": 768
+        },
+        "canvasBuf": [
+          1167,
+          1156
+        ],
+        "canvasCssH": "1155.67px",
+        "stageH": 1956,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1468,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 1024,
+          "sectionMinH": "1024px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      }
+    },
+    "390x844": {
+      "light": {
+        "h1": {
+          "top": 134.8,
+          "left": 64,
+          "h": 80
+        },
+        "composer": {
+          "top": 430.8,
+          "left": 64,
+          "h": 402.3,
+          "w": 262
+        },
+        "promptH": 320.7,
+        "spiralWrap": {
+          "h": 720,
+          "w": 390
+        },
+        "canvasBuf": [
+          593,
+          850
+        ],
+        "canvasCssH": "849.594px",
+        "stageH": 1564,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1188,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 844,
+          "sectionMinH": "844px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      },
+      "dark": {
+        "h1": {
+          "top": 134.8,
+          "left": 64,
+          "h": 80
+        },
+        "composer": {
+          "top": 430.8,
+          "left": 64,
+          "h": 402.3,
+          "w": 262
+        },
+        "promptH": 320.7,
+        "spiralWrap": {
+          "h": 720,
+          "w": 390
+        },
+        "canvasBuf": [
+          593,
+          850
+        ],
+        "canvasCssH": "849.594px",
+        "stageH": 1564,
+        "overflowX": false,
+        "composerCount": 1,
+        "brand": {
+          "top": 1188,
+          "title": "Integrito",
+          "body": "AI and originality detection, all in one place. Try Integrito to ensure your world is real.",
+          "sectionH": 844,
+          "sectionMinH": "844px"
+        },
+        "order": {
+          "heroBeforeComposer": true,
+          "composerBeforeBrand": true
+        },
+        "spiralInWorkspace": false
+      }
+    }
+  },
+  "compare": {
+    "1920x1080": {
+      "light": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      },
+      "dark": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      }
+    },
+    "1440x900": {
+      "light": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      },
+      "dark": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      }
+    },
+    "1280x720": {
+      "light": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      },
+      "dark": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      }
+    },
+    "768x1024": {
+      "light": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      },
+      "dark": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      }
+    },
+    "390x844": {
+      "light": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      },
+      "dark": {
+        "h1Top": 0,
+        "h1Left": 0,
+        "composerTop": 0,
+        "composerLeft": 0,
+        "composerH": 0,
+        "spiralWrapH": 0,
+        "canvasBufChanged": false
+      }
+    }
+  }
+}

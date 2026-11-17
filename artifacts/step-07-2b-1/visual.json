@@ -1,0 +1,9 @@
+{
+  "compactGeometry": { "w": 640, "h": 562, "delta": 0 },
+  "detectAi": {
+    "behavior": "validation-only",
+    "emptyNotice": "Paste some text to get started."
+  },
+  "demoStep3": { "score": "81.59%", "className": "detector-composer is-demo is-demo-result" },
+  "screenshots": ["hero-composer.png", "demo-step3.png"]
+}

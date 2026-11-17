@@ -1,14 +1,36 @@
 /**
  * Editorial section rhythm
  *
- * Future sequence inside StorytellingStage:
- *   Hero → Introduction → How It Works 01 → 02 → 03
+ * DOM order: Hero → Composer → EditorialRail sections.
+ * Desktop grid places Hero + EditorialRail left; Composer right.
  *
- * StorytellingStage itself must NOT use 100svh — height is the sum
- * of these sections (sticky + spiral boundary).
+ * EditorialRail: BrandIntro → How It Works Steps 1–3.
+ * Each section centers its own content (min-height 100svh).
  *
  * TrustSection stays OUTSIDE StorytellingStage.
  */
+
+/*
+  Step 5.3.2 — Shared supporting-copy color (Hero lede reference).
+  Light: #696f8c · Dark: #a8a69c via --color-text-muted.
+*/
+.editorial-lede {
+  color: var(--color-text-muted);
+}
+
+/*
+  Step 5.5.3 — Editorial numerals (Reference 01).
+  Blue accent anchors for How It Works + Trust. Theme via --color-brand.
+  Scale from calibrated Ref 01 ink (artboard ÷ 3), 4px type grid.
+*/
+.editorial-numeral {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-semibold);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+  color: var(--color-brand);
+  line-height: 1;
+}
 
 .editorial-section {
   box-sizing: border-box;
@@ -21,8 +43,19 @@
 
 /**
  * First editorial block only — remaining viewport below Header.
+ * Hero centers here, not across the full multi-section stage.
  * --header-height is published from the rendered Header (ResizeObserver).
  */
 .editorial-section--first {
   min-height: calc(100svh - var(--header-height));
+}
+
+/*
+  Stacked: first section sizes to Hero only. Hero + Composer share the
+  first-screen envelope via .split-grid__scene (StorytellingStage.css).
+*/
+@media (max-width: 1199px) {
+  .editorial-section--first {
+    min-height: 0;
+  }
 }

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "A",
+    "ok": true,
+    "d": "typed 20 chars focused"
+  },
+  {
+    "id": "C",
+    "ok": true,
+    "d": "activeElement stayed textarea"
+  },
+  {
+    "id": "D",
+    "ok": true,
+    "d": "textarea node stable"
+  },
+  {
+    "id": "E",
+    "ok": true,
+    "d": "{\"clear\":true,\"active\":\"detector-text\",\"valueLen\":40}"
+  },
+  {
+    "id": "B",
+    "ok": true,
+    "d": "{\"active\":\"detector-text\",\"paras\":2}"
+  },
+  {
+    "id": "F",
+    "ok": true,
+    "d": "{\"active\":\"detector-text\",\"sel\":8,\"slice\":\"XYZ\"}"
+  },
+  {
+    "id": "G",
+    "ok": true,
+    "d": "{\"active\":\"detector-text\",\"slice\":\"Q\"}"
+  },
+  {
+    "id": "H",
+    "ok": true,
+    "d": "backspace/delete kept focus"
+  },
+  {
+    "id": "I",
+    "ok": false,
+    "d": "{\"active\":\"detector-text\",\"ends\":false,\"words\":400}"
+  },
+  {
+    "id": "J",
+    "ok": true,
+    "d": "ime + type kept focus"
+  },
+  {
+    "id": "K",
+    "ok": true,
+    "d": "{\"k1\":{\"inDialog\":true,\"aria\":\"BUTTON\"},\"k2\":{\"inDialog\":true,\"id\":\"detector-text\"}}"
+  },
+  {
+    "id": "L",
+    "ok": true,
+    "d": "escape close"
+  },
+  {
+    "id": "M",
+    "ok": true,
+    "d": "collapse button"
+  },
+  {
+    "id": "N",
+    "ok": true,
+    "d": "{\"active\":\"detector-text\",\"has\":true}"
+  },
+  {
+    "id": "O",
+    "ok": true,
+    "d": "{\"expandVisible\":false,\"taFocused\":false}"
+  },
+  {
+    "id": "P",
+    "ok": true,
+    "d": "{\"active\":\"detector-text\",\"expanded\":false,\"val\":true}"
+  },
+  {
+    "id": "Q",
+    "ok": true,
+    "d": "{\"active\":\"detector-text\",\"val\":\"mobiletypingtest\"}"
+  },
+  {
+    "id": "REC",
+    "ok": true,
+    "d": "artifacts/step-07-1-4/continuous-typing.webm"
+  },
+  {
+    "id": "R",
+    "ok": true,
+    "d": "dist/assets/index-C9U5pTZb.js                  234.75 kB │ gzip: 75.02 kB | ✓ built in 1.37s"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "tests": {
+    "A_hero": true,
+    "A_step1": true,
+    "A_step2": true,
+    "A_step3": true,
+    "B_step3to2": {
+      "ok": true,
+      "noCountdown": true,
+      "hadCollapse": true
+    },
+    "B_step2to1": {
+      "ok": true,
+      "procFaded": true
+    },
+    "B_toHero": {
+      "emptyComposer": true,
+      "shells": 0
+    },
+    "C_rapid": {
+      "singleShell": true,
+      "endsResult": true
+    },
+    "D_interruptExpand": {
+      "collapsed": true,
+      "noDuplicate": true
+    },
+    "E_interruptCollapse": {
+      "reopened": true,
+      "singleShell": true
+    },
+    "F_step3toHero": {
+      "endsIdle": true,
+      "noStuckProc": true,
+      "shellsCleared": true
+    },
+    "G_focusDuringCollapse": true,
+    "H_blurRestore": true,
+    "I_reduced": true,
+    "J_mobile": true
+  },
+  "geometry": {
+    "promptDelta": 0,
+    "overflowX": false
+  },
+  "videos": {
+    "downward": "downward.webm",
+    "upward": "upward.webm",
+    "rapid": "rapid.webm"
+  },
+  "checks": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": true,
+    "H": true,
+    "I": true,
+    "J": true,
+    "geometry": true,
+    "videos": true
+  },
+  "allPass": true
+}

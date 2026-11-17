@@ -1,0 +1,73 @@
+/**
+ * How It Works step — number + heading + description (Reference 01 / 5.5.3).
+ * Numeral: brand blue, display scale (~1.7× step title). Title aligns to numeral top.
+ */
+
+.how-it-works-step {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: var(--space-5);
+  align-items: start;
+  width: 100%;
+}
+
+.how-it-works-step__number {
+  /* Shared accent + family from .editorial-numeral */
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.how-it-works-step__copy {
+  min-width: 0;
+  /* Top of title aligns with top of numeral (Reference 01) */
+  padding-top: 0;
+}
+
+.how-it-works-step__heading {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 28px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  color: var(--color-text);
+}
+
+.how-it-works-step__description {
+  margin: var(--space-5) 0 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  letter-spacing: -0.01em;
+  line-height: var(--leading-editorial);
+  /* Color: .editorial-lede → --color-text-muted */
+}
+
+@media (min-width: 768px) {
+  .how-it-works-step {
+    column-gap: var(--space-6);
+  }
+
+  .how-it-works-step__number {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  .how-it-works-step__heading {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-it-works-step__number {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .how-it-works-step__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}

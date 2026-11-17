@@ -1,0 +1,136 @@
+{
+  "motion": {
+    "modeInfo": {
+      "hasWebGL": true,
+      "canvasW": 2088,
+      "canvasH": 1137,
+      "cssW": "2088px",
+      "pointerEvents": "none",
+      "overflowX": false
+    },
+    "hashes": {
+      "h0": 2138572155,
+      "h1": 3081944016,
+      "h2": 2885262782
+    },
+    "moved": true,
+    "reducedFrozen": true,
+    "reducedHashes": {
+      "hr0": 2771655795,
+      "hr1": 2771655795
+    }
+  },
+  "1920x1080": {
+    "light": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "2784px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 144,
+      "composerH": 621.59375,
+      "textareaOk": true
+    },
+    "dark": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "2784px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 144,
+      "composerH": 621.59375,
+      "textareaOk": true
+    }
+  },
+  "1440x900": {
+    "light": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "2088px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 136,
+      "composerH": 549.59375,
+      "textareaOk": true
+    },
+    "dark": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "2088px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 136,
+      "composerH": 549.59375,
+      "textareaOk": true
+    }
+  },
+  "1280x720": {
+    "light": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "1856px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 128,
+      "composerH": 455.984375,
+      "textareaOk": true
+    },
+    "dark": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "1856px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 128,
+      "composerH": 455.984375,
+      "textareaOk": true
+    }
+  },
+  "768x1024": {
+    "light": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "1167.36px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 104,
+      "composerH": 501.59375,
+      "textareaOk": true
+    },
+    "dark": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "1167.36px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 104,
+      "composerH": 501.59375,
+      "textareaOk": true
+    }
+  },
+  "390x844": {
+    "light": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "592.797px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 80,
+      "composerH": 402.3125,
+      "textareaOk": true
+    },
+    "dark": {
+      "overflowX": false,
+      "hasWebGL": true,
+      "cssW": "592.797px",
+      "pe": "none",
+      "parentIsGrid": false,
+      "h1H": 80,
+      "composerH": 402.3125,
+      "textareaOk": true
+    }
+  },
+  "videoFiles": [
+    "spiral-idle-1440x900-light.webm"
+  ]
+}

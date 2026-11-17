@@ -1,0 +1,57 @@
+[
+  {
+    "id": "A",
+    "ok": true,
+    "d": "Original result"
+  },
+  {
+    "id": "B",
+    "ok": true,
+    "d": "81.59%"
+  },
+  {
+    "id": "C",
+    "ok": true,
+    "d": "[\"However, I believe that small everyday decisions can be just as important.\",\"One decision may seem insignificant, but repeated choices slowly become habits.\"]"
+  },
+  {
+    "id": "D",
+    "ok": true,
+    "d": "open"
+  },
+  {
+    "id": "E",
+    "ok": true,
+    "d": "detector-composer is-demo is-demo-processing"
+  },
+  {
+    "id": "F",
+    "ok": true,
+    "d": "rapid scroll settled at 81.59%"
+  },
+  {
+    "id": "G",
+    "ok": true,
+    "d": "takeover"
+  },
+  {
+    "id": "H",
+    "ok": true,
+    "d": "{\"score\":\"81.59%\",\"views\":1}"
+  },
+  {
+    "id": "I",
+    "ok": true,
+    "d": "same view"
+  },
+  {
+    "id": "J",
+    "ok": true,
+    "d": "dark"
+  },
+  {
+    "id": "VIS",
+    "ok": true,
+    "d": "before 180799B after 181550B"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "ok": true,
+    "d": "hidden initial"
+  },
+  {
+    "id": "2",
+    "ok": true,
+    "d": "visible on focus"
+  },
+  {
+    "id": "3",
+    "ok": true,
+    "d": "expand after focus click"
+  },
+  {
+    "id": "9",
+    "ok": true,
+    "d": "collapse visible"
+  },
+  {
+    "id": "8",
+    "ok": true,
+    "d": "open/close"
+  },
+  {
+    "id": "4",
+    "ok": true,
+    "d": "remains after text blur"
+  },
+  {
+    "id": "5",
+    "ok": true,
+    "d": "hidden after clear blur"
+  },
+  {
+    "id": "6",
+    "ok": true,
+    "d": "detector-composer is-demo is-demo-processing"
+  },
+  {
+    "id": "7",
+    "ok": true,
+    "d": "visible after demo takeover"
+  },
+  {
+    "id": "10",
+    "ok": true,
+    "d": "{\"minHeight\":\"0px\",\"h\":20}"
+  },
+  {
+    "id": "11",
+    "ok": true,
+    "d": "{\"geom0\":{\"w\":640,\"h\":562,\"labelLeft\":736},\"geom1\":{\"w\":640,\"h\":562},\"labelFocus\":736}"
+  },
+  {
+    "id": "12",
+    "ok": true,
+    "d": "Shift+Tab Expand + Enter/Escape"
+  },
+  {
+    "id": "13",
+    "ok": true,
+    "d": "dark ok"
+  },
+  {
+    "id": "14",
+    "ok": true,
+    "d": "dist/assets/index-DWdY8o8J.js                  233.71 kB │ gzip: 74.75 kB | ✓ built in 1.79s"
+  }
+]

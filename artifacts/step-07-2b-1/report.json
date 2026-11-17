@@ -1,0 +1,97 @@
+[
+  {
+    "id": "A",
+    "ok": true,
+    "d": "initial idle"
+  },
+  {
+    "id": "B",
+    "ok": true,
+    "d": "processing"
+  },
+  {
+    "id": "C",
+    "ok": true,
+    "d": "result"
+  },
+  {
+    "id": "D",
+    "ok": true,
+    "d": "{\"code\":\"request_failed\",\"message\":\"Detection could not be completed. Please try again.\"}"
+  },
+  {
+    "id": "E",
+    "ok": true,
+    "d": "cancel → idle"
+  },
+  {
+    "id": "F",
+    "ok": true,
+    "d": "aborted cannot produce result"
+  },
+  {
+    "id": "G",
+    "ok": true,
+    "d": "duplicate ignored"
+  },
+  {
+    "id": "H",
+    "ok": true,
+    "d": "stale requestId ignored"
+  },
+  {
+    "id": "I",
+    "ok": true,
+    "d": "retry ok"
+  },
+  {
+    "id": "J",
+    "ok": true,
+    "d": "reset cleared"
+  },
+  {
+    "id": "K",
+    "ok": true,
+    "d": "draft unchanged on success"
+  },
+  {
+    "id": "L",
+    "ok": true,
+    "d": "draft unchanged on error"
+  },
+  {
+    "id": "M",
+    "ok": true,
+    "d": "exact snapshot text 123"
+  },
+  {
+    "id": "N",
+    "ok": true,
+    "d": "no fixture import in session"
+  },
+  {
+    "id": "O",
+    "ok": true,
+    "d": "result frozen"
+  },
+  {
+    "id": "P",
+    "ok": true,
+    "d": "no editorial/demo coupling"
+  },
+  {
+    "id": "Q",
+    "ok": true,
+    "d": "provider above composer; no expand reset"
+  },
+  {
+    "id": "R",
+    "ok": true,
+    "d": "tsc ok"
+  },
+  {
+    "id": "S",
+    "ok": true,
+    "d": "dist/assets/index-BfHIPRZA.js                  241.66 kB │ gzip: 77.38 kB | ✓ built in 1.71s"
+  }
+]

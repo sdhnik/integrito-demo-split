@@ -1,0 +1,69 @@
+{
+  "rootCause": "Expanded .detector-composer__result kept max-width:56rem while document was full prompt width",
+  "before": {
+    "resultW": 896,
+    "docW": 1014,
+    "deltaInline": 59
+  },
+  "after": {
+    "dL": 0,
+    "dR": 0
+  },
+  "results": [
+    {
+      "id": "DARK",
+      "ok": true,
+      "d": "{\"result\":{\"left\":213,\"right\":1227,\"w\":1014},\"doc\":{\"left\":213,\"right\":1227,\"w\":1014},\"dL\":0,\"dR\":0,\"ox\":false}"
+    },
+    {
+      "id": "VP-1920",
+      "ok": true,
+      "d": "{\"result\":{\"left\":453,\"right\":1467,\"w\":1014},\"doc\":{\"left\":453,\"right\":1467,\"w\":1014},\"dL\":0,\"dR\":0,\"ox\":false}"
+    },
+    {
+      "id": "VP-1280",
+      "ok": true,
+      "d": "{\"result\":{\"left\":133,\"right\":1147,\"w\":1014},\"doc\":{\"left\":133,\"right\":1147,\"w\":1014},\"dL\":0,\"dR\":0,\"ox\":false}"
+    },
+    {
+      "id": "VP-768",
+      "ok": true,
+      "d": "{\"result\":{\"left\":67,\"right\":701,\"w\":634},\"doc\":{\"left\":67,\"right\":701,\"w\":634},\"dL\":0,\"dR\":0,\"ox\":false}"
+    },
+    {
+      "id": "VP-390",
+      "ok": true,
+      "d": "{\"result\":{\"left\":28,\"right\":362,\"w\":334},\"doc\":{\"left\":28,\"right\":362,\"w\":334},\"dL\":0,\"dR\":0,\"ox\":false}"
+    },
+    {
+      "id": "MOCK-AFTER",
+      "ok": true,
+      "d": "{\"result\":{\"left\":213,\"right\":1227,\"w\":1014},\"doc\":{\"left\":213,\"right\":1227,\"w\":1014},\"dL\":0,\"dR\":0,\"ox\":false}"
+    },
+    {
+      "id": "LONG",
+      "ok": true,
+      "d": "{\"longM\":{\"result\":{\"left\":213,\"right\":1227,\"w\":1014},\"doc\":{\"left\":213,\"right\":1227,\"w\":1014},\"dL\":0,\"dR\":0,\"ox\":false},\"scrollable\":true}"
+    },
+    {
+      "id": "COMPACT",
+      "ok": true,
+      "d": "{\"w\":640,\"h\":562}"
+    },
+    {
+      "id": "BUILD",
+      "ok": true,
+      "d": "dist/assets/index-BxfKCYZe.css                  34.46 kB │ gzip:  6.59 kB | dist/assets/index-DfgVwwwf.js                  241.66 kB │ gzip: 77.38 kB | ✓ built in 2.21s"
+    },
+    {
+      "id": "BEFORE",
+      "ok": true,
+      "d": "before-expanded-result.png"
+    },
+    {
+      "id": "CSS",
+      "ok": true,
+      "d": "expanded result max-width:none"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "before": {
+    "afterCollapseEmpty": {
+      "editorFocused": true,
+      "expandVisible": true,
+      "taFocused": false,
+      "demoEligible": false
+    }
+  },
+  "after": [
+    {
+      "id": "A",
+      "ok": true,
+      "d": "{\"a\":{\"activeLabel\":\"BODY\",\"taFocused\":false,\"expandVisible\":false,\"expandTabIndex\":-1,\"expandAriaHidden\":\"true\",\"composerClass\":\"detector-composer\",\"draft\":\"\",\"promptFocusWithin\":false},\"scrollBefore\":0,\"scrollAfter\":0}"
+    },
+    {
+      "id": "B",
+      "ok": true,
+      "d": "{\"activeLabel\":\"BODY\",\"taFocused\":false,\"expandVisible\":false,\"expandTabIndex\":-1,\"expandAriaHidden\":\"true\",\"composerClass\":\"detector-composer\",\"draft\":\"\",\"promptFocusWithin\":false}"
+    },
+    {
+      "id": "C",
+      "ok": true,
+      "d": "{\"activeLabel\":\"BODY\",\"taFocused\":false,\"expandVisible\":false,\"expandTabIndex\":-1,\"expandAriaHidden\":\"true\",\"composerClass\":\"detector-composer is-demo\",\"draft\":null,\"promptFocusWithin\":false}"
+    },
+    {
+      "id": "D2",
+      "ok": true,
+      "d": "detector-composer is-demo is-demo-processing"
+    },
+    {
+      "id": "D3",
+      "ok": true,
+      "d": "detector-composer is-demo is-demo-result"
+    },
+    {
+      "id": "E",
+      "ok": true,
+      "d": "{\"e\":{\"activeLabel\":\"Expand editor\",\"taFocused\":false,\"expandVisible\":true,\"expandTabIndex\":0,\"expandAriaHidden\":\"false\",\"composerClass\":\"detector-composer\",\"draft\":\"Keep this draft after collapse.\",\"promptFocusWithin\":false},\"val\":\"Keep this draft after collapse.\"}"
+    },
+    {
+      "id": "F",
+      "ok": true,
+      "d": "{\"activeLabel\":\"BODY\",\"taFocused\":false,\"expandVisible\":false,\"expandTabIndex\":-1,\"expandAriaHidden\":\"true\",\"composerClass\":\"detector-composer is-demo is-demo-processing\",\"draft\":null,\"promptFocusWithin\":false}"
+    },
+    {
+      "id": "G",
+      "ok": true,
+      "d": "keyboard expand/collapse"
+    },
+    {
+      "id": "H",
+      "ok": true,
+      "d": "{\"activeLabel\":\"BODY\",\"taFocused\":false,\"expandVisible\":false,\"expandTabIndex\":-1,\"expandAriaHidden\":\"true\",\"composerClass\":\"detector-composer\",\"draft\":\"\",\"promptFocusWithin\":false}"
+    },
+    {
+      "id": "I",
+      "ok": true,
+      "d": "promptFocusWithin=false"
+    },
+    {
+      "id": "J",
+      "ok": true,
+      "d": "no hidden focus"
+    },
+    {
+      "id": "K",
+      "ok": true,
+      "d": "{\"geom0\":{\"w\":640,\"h\":562},\"geom1\":{\"w\":640,\"h\":562}}"
+    },
+    {
+      "id": "L",
+      "ok": true,
+      "d": "scroll checked in A"
+    },
+    {
+      "id": "M",
+      "ok": true,
+      "d": "dist/assets/index-Crx9PoJW.js                  234.72 kB │ gzip: 75.03 kB | ✓ built in 1.36s"
+    }
+  ]
+}

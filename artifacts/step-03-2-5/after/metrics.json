@@ -1,0 +1,1976 @@
+{
+  "1920x1080": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 144,
+        "top": 446
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 84,
+        "top": 614
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 261.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 841.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 452,
+        "top": 310.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 784.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 784.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 774.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 841.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 540,
+        "top": 289.2
+      },
+      "overflowX": false
+    },
+    "dark": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 144,
+        "top": 446
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 84,
+        "top": 614
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 261.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 841.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 452,
+        "top": 310.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 784.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 784.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 774.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 841.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 540,
+        "top": 289.2
+      },
+      "overflowX": false
+    }
+  },
+  "1440x900": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "60px",
+        "lineHeight": "68px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 136,
+        "top": 360
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 84,
+        "top": 520
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    },
+    "dark": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "60px",
+        "lineHeight": "68px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 136,
+        "top": 360
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 84,
+        "top": 520
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    }
+  },
+  "1280x720": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 413.3,
+        "h": 128,
+        "top": 260
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 413.3,
+        "h": 112,
+        "top": 412
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 578.7,
+        "h": 20,
+        "top": 164
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 578.4
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 534.7,
+        "h": 286.4,
+        "top": 213
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 521.4
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 521.4
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 511.4
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 578.4
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 578.7,
+        "h": 374.4,
+        "top": 192
+      },
+      "overflowX": false
+    },
+    "dark": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 413.3,
+        "h": 128,
+        "top": 260
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 413.3,
+        "h": 112,
+        "top": 412
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 578.7,
+        "h": 20,
+        "top": 164
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 578.4
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 534.7,
+        "h": 286.4,
+        "top": 213
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 521.4
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 521.4
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 511.4
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 578.4
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 578.7,
+        "h": 374.4,
+        "top": 192
+      },
+      "overflowX": false
+    }
+  },
+  "768x1024": {
+    "light": {
+      "headerH": 92,
+      "nav": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 91.1,
+        "h": 28,
+        "top": 55
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 59.6,
+        "h": 36,
+        "top": 9.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 82.7,
+        "h": 31.2,
+        "top": 11.9
+      },
+      "h1": {
+        "fontSize": "44px",
+        "lineHeight": "52px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 104,
+        "top": 189.2
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 84,
+        "top": 317.2
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 425.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 885.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 332,
+        "top": 474.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 828.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 828.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 818.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 885.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 420,
+        "top": 453.2
+      },
+      "overflowX": false
+    },
+    "dark": {
+      "headerH": 92,
+      "nav": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 91.1,
+        "h": 28,
+        "top": 55
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 59.6,
+        "h": 36,
+        "top": 9.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 82.7,
+        "h": 31.2,
+        "top": 11.9
+      },
+      "h1": {
+        "fontSize": "44px",
+        "lineHeight": "52px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 104,
+        "top": 189.2
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 84,
+        "top": 317.2
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 425.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 885.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 332,
+        "top": 474.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 828.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 828.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 818.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 885.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 420,
+        "top": 453.2
+      },
+      "overflowX": false
+    }
+  },
+  "390x844": {
+    "light": {
+      "headerH": 124,
+      "nav": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 91.1,
+        "h": 28,
+        "top": 87
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 59.6,
+        "h": 36,
+        "top": 41.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 82.7,
+        "h": 31.2,
+        "top": 43.9
+      },
+      "h1": {
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 80,
+        "top": 134.8
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 168,
+        "top": 238.8
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 20,
+        "top": 430.8
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 791.6
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 230,
+        "h": 213.7,
+        "top": 475.8
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 701.6
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 101.8,
+        "h": 40,
+        "top": 726.6
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 118.2,
+        "h": 40,
+        "top": 714.1
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 0,
+        "h": 0,
+        "top": 0
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 320.7,
+        "top": 458.8
+      },
+      "overflowX": false
+    },
+    "dark": {
+      "headerH": 124,
+      "nav": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 91.1,
+        "h": 28,
+        "top": 87
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 59.6,
+        "h": 36,
+        "top": 41.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 82.7,
+        "h": 31.2,
+        "top": 43.9
+      },
+      "h1": {
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 80,
+        "top": 134.8
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 168,
+        "top": 238.8
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 20,
+        "top": 430.8
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 791.6
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 230,
+        "h": 213.7,
+        "top": 475.8
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 701.6
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 101.8,
+        "h": 40,
+        "top": 726.6
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 118.2,
+        "h": 40,
+        "top": 714.1
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 0,
+        "h": 0,
+        "top": 0
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 262,
+        "h": 320.7,
+        "top": 458.8
+      },
+      "overflowX": false
+    }
+  },
+  "boundary-1199": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 1071,
+        "h": 112,
+        "top": 144.2
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 1071,
+        "h": 56,
+        "top": 280.2
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 1071,
+        "h": 20,
+        "top": 360.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 778.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 1027,
+        "h": 290,
+        "top": 409.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 721.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 721.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 711.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 778.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 1071,
+        "h": 378,
+        "top": 388.2
+      },
+      "overflowX": false
+    }
+  },
+  "boundary-1200": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 380,
+        "h": 128,
+        "top": 350
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 380,
+        "h": 112,
+        "top": 502
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 532,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 488,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 532,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    }
+  },
+  "boundary-1365": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 448.7,
+        "h": 128,
+        "top": 364
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 448.7,
+        "h": 84,
+        "top": 516
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 628.3,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 584.3,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 628.3,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    }
+  },
+  "boundary-1366": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "60px",
+        "lineHeight": "68px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 449.2,
+        "h": 136,
+        "top": 360
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 449.2,
+        "h": 84,
+        "top": 520
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 628.8,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 584.8,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 628.8,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    }
+  },
+  "boundary-1599": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "60px",
+        "lineHeight": "68px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 136,
+        "top": 360
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 84,
+        "top": 520
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    }
+  },
+  "boundary-1600": {
+    "light": {
+      "headerH": 64,
+      "nav": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 121.5,
+        "h": 36,
+        "top": 13.5
+      },
+      "login": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 67.6,
+        "h": 36,
+        "top": 13.5
+      },
+      "signup": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 90.7,
+        "h": 34.4,
+        "top": 14.3
+      },
+      "h1": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 144,
+        "top": 356
+      },
+      "h1Lines": 2,
+      "lede": {
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 480,
+        "h": 84,
+        "top": 524
+      },
+      "helper": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 20,
+        "top": 207.2
+      },
+      "status": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 252.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "textarea": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 596,
+        "h": 380,
+        "top": 256.2
+      },
+      "paste": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 99.6,
+        "h": 20,
+        "top": 658.2
+      },
+      "count": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 213.5,
+        "h": 20,
+        "top": 658.2
+      },
+      "detect": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "w": 126.2,
+        "h": 40,
+        "top": 648.2
+      },
+      "shortcut": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "fontFamily": "IBM Plex Mono",
+        "w": 115.3,
+        "h": 20,
+        "top": 715.2
+      },
+      "prompt": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "fontFamily": "DM Sans",
+        "w": 640,
+        "h": 468,
+        "top": 235.2
+      },
+      "overflowX": false
+    }
+  }
+}

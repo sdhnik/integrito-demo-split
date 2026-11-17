@@ -1,0 +1,112 @@
+{
+  "1920x1080": {
+    "light": {
+      "overflowX": false,
+      "canvasCssW": "2784px",
+      "canvasLeft": "-192px",
+      "spiralOpacity": "0.36",
+      "h1H": 144,
+      "composerH": 621.6,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "canvasCssW": "2784px",
+      "canvasLeft": "-192px",
+      "spiralOpacity": "0.44",
+      "h1H": 144,
+      "composerH": 621.6,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    }
+  },
+  "1440x900": {
+    "light": {
+      "overflowX": false,
+      "canvasCssW": "2088px",
+      "canvasLeft": "-144px",
+      "spiralOpacity": "0.36",
+      "h1H": 136,
+      "composerH": 549.6,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "canvasCssW": "2088px",
+      "canvasLeft": "-144px",
+      "spiralOpacity": "0.44",
+      "h1H": 136,
+      "composerH": 549.6,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    }
+  },
+  "1280x720": {
+    "light": {
+      "overflowX": false,
+      "canvasCssW": "1856px",
+      "canvasLeft": "-128px",
+      "spiralOpacity": "0.36",
+      "h1H": 128,
+      "composerH": 456,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "canvasCssW": "1856px",
+      "canvasLeft": "-128px",
+      "spiralOpacity": "0.44",
+      "h1H": 128,
+      "composerH": 456,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    }
+  },
+  "768x1024": {
+    "light": {
+      "overflowX": false,
+      "canvasCssW": "1167.36px",
+      "canvasLeft": "92.1562px",
+      "spiralOpacity": "0.22",
+      "h1H": 104,
+      "composerH": 501.6,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "canvasCssW": "1167.36px",
+      "canvasLeft": "92.1562px",
+      "spiralOpacity": "0.3",
+      "h1H": 104,
+      "composerH": 501.6,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    }
+  },
+  "390x844": {
+    "light": {
+      "overflowX": false,
+      "canvasCssW": "592.797px",
+      "canvasLeft": "15.5938px",
+      "spiralOpacity": "0.22",
+      "h1H": 80,
+      "composerH": 402.3,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "canvasCssW": "592.797px",
+      "canvasLeft": "15.5938px",
+      "spiralOpacity": "0.3",
+      "h1H": 80,
+      "composerH": 402.3,
+      "parentIsGrid": false,
+      "spiralPE": "none"
+    }
+  }
+}

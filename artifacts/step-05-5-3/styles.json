@@ -1,0 +1,252 @@
+{
+  "1920x1080": {
+    "light": {
+      "brandToken": "#4c5dff",
+      "howNum": {
+        "size": "64px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "40px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "48px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)"
+      },
+      "trustTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustCols": "88px 320px 808px",
+      "overflowX": false
+    },
+    "dark": {
+      "brandToken": "#7b87ff",
+      "howNum": {
+        "size": "64px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "40px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "48px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)"
+      },
+      "trustTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustCols": "88px 320px 808px",
+      "overflowX": false
+    }
+  },
+  "1440x900": {
+    "light": {
+      "brandToken": "#4c5dff",
+      "howNum": {
+        "size": "64px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "40px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "48px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)"
+      },
+      "trustTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustCols": "88px 320px 808px",
+      "overflowX": false
+    },
+    "dark": {
+      "brandToken": "#7b87ff",
+      "howNum": {
+        "size": "64px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "40px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "48px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)"
+      },
+      "trustTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustCols": "88px 320px 808px",
+      "overflowX": false
+    }
+  },
+  "1280x720": {
+    "light": {
+      "brandToken": "#4c5dff",
+      "howNum": {
+        "size": "64px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "40px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "48px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)"
+      },
+      "trustTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustCols": "88px 320px 648px",
+      "overflowX": false
+    },
+    "dark": {
+      "brandToken": "#7b87ff",
+      "howNum": {
+        "size": "64px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "40px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "48px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)"
+      },
+      "trustTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustCols": "88px 320px 648px",
+      "overflowX": false
+    }
+  },
+  "768x1024": {
+    "light": {
+      "brandToken": "#4c5dff",
+      "howNum": {
+        "size": "56px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "36px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "40px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)"
+      },
+      "trustTitle": {
+        "size": "24px",
+        "weight": "600"
+      },
+      "trustCols": "72px 552px",
+      "overflowX": false
+    },
+    "dark": {
+      "brandToken": "#7b87ff",
+      "howNum": {
+        "size": "56px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "36px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "40px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)"
+      },
+      "trustTitle": {
+        "size": "24px",
+        "weight": "600"
+      },
+      "trustCols": "72px 552px",
+      "overflowX": false
+    }
+  },
+  "390x844": {
+    "light": {
+      "brandToken": "#4c5dff",
+      "howNum": {
+        "size": "40px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "32px",
+        "weight": "600",
+        "color": "rgb(76, 93, 255)"
+      },
+      "trustTitle": {
+        "size": "20px",
+        "weight": "600"
+      },
+      "trustCols": "33.6875px 212.312px",
+      "overflowX": false
+    },
+    "dark": {
+      "brandToken": "#7b87ff",
+      "howNum": {
+        "size": "40px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)",
+        "family": "DM Sans"
+      },
+      "howTitle": {
+        "size": "28px",
+        "weight": "600"
+      },
+      "trustNum": {
+        "size": "32px",
+        "weight": "600",
+        "color": "rgb(123, 135, 255)"
+      },
+      "trustTitle": {
+        "size": "20px",
+        "weight": "600"
+      },
+      "trustCols": "33.6875px 212.312px",
+      "overflowX": false
+    }
+  }
+}

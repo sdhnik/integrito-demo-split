@@ -1,0 +1,88 @@
+{
+  "tests": {
+    "step1_light_ready": true,
+    "step2_light": {
+      "processing": true,
+      "textReady": true,
+      "maskNone": true,
+      "hasLastLine": true,
+      "font": {
+        "text": "Analyzing sample text",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "color": "rgb(76, 93, 255)"
+      },
+      "ok": true
+    },
+    "step1_dark_ready": true,
+    "step2_dark": {
+      "processing": true,
+      "textReady": true,
+      "maskNone": true,
+      "hasLastLine": true,
+      "font": {
+        "text": "Analyzing sample text",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "600",
+        "fontFamily": "DM Sans",
+        "color": "rgb(123, 135, 255)"
+      },
+      "ok": true
+    }
+  },
+  "viewports": {
+    "1920x1080": {
+      "promptH": {
+        "s1": 540,
+        "s2": 540,
+        "s3": 540
+      },
+      "delta": 0,
+      "step1Ready": true,
+      "step2Ready": true,
+      "step3": true,
+      "overflowX": false,
+      "ok": true
+    },
+    "1440x900": {
+      "promptH": {
+        "s1": 468,
+        "s2": 468,
+        "s3": 468
+      },
+      "delta": 0,
+      "step1Ready": true,
+      "step2Ready": true,
+      "step3": true,
+      "overflowX": false,
+      "ok": true
+    },
+    "1280x720": {
+      "promptH": {
+        "s1": 374,
+        "s2": 374,
+        "s3": 374
+      },
+      "delta": 0,
+      "step1Ready": true,
+      "step2Ready": true,
+      "step3": true,
+      "overflowX": false,
+      "ok": true
+    }
+  },
+  "geometry": {},
+  "video": "after/demo-sequence.webm",
+  "checks": {
+    "step1_light": true,
+    "step1_dark": true,
+    "step2_light": true,
+    "step2_dark": true,
+    "viewports": true,
+    "video": true
+  },
+  "allPass": true
+}

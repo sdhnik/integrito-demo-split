@@ -1,0 +1,172 @@
+{
+  "1920x1080": {
+    "light": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "48px 288px 880px",
+      "containerWidth": 1440,
+      "containerLeft": 240,
+      "trustWidth": 1920,
+      "viewportW": 1920,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    },
+    "dark": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "48px 288px 880px",
+      "containerWidth": 1440,
+      "containerLeft": 240,
+      "trustWidth": 1920,
+      "viewportW": 1920,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    }
+  },
+  "1440x900": {
+    "light": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "48px 288px 880px",
+      "containerWidth": 1440,
+      "containerLeft": 0,
+      "trustWidth": 1440,
+      "viewportW": 1440,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    },
+    "dark": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "48px 288px 880px",
+      "containerWidth": 1440,
+      "containerLeft": 0,
+      "trustWidth": 1440,
+      "viewportW": 1440,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    }
+  },
+  "1280x720": {
+    "light": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "48px 288px 720px",
+      "containerWidth": 1280,
+      "containerLeft": 0,
+      "trustWidth": 1280,
+      "viewportW": 1280,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    },
+    "dark": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "48px 288px 720px",
+      "containerWidth": 1280,
+      "containerLeft": 0,
+      "trustWidth": 1280,
+      "viewportW": 1280,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    }
+  },
+  "768x1024": {
+    "light": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "40px 584px",
+      "containerWidth": 768,
+      "containerLeft": 0,
+      "trustWidth": 768,
+      "viewportW": 768,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    },
+    "dark": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "40px 584px",
+      "containerWidth": 768,
+      "containerLeft": 0,
+      "trustWidth": 768,
+      "viewportW": 768,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    }
+  },
+  "390x844": {
+    "light": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "18.5781px 227.422px",
+      "containerWidth": 390,
+      "containerLeft": 0,
+      "trustWidth": 390,
+      "viewportW": 390,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    },
+    "dark": {
+      "label": "04 / WHY TRUST INTEGRITO",
+      "heading": "Why you can trust our AI content detector",
+      "rowCount": 3,
+      "rowDisplay": "grid",
+      "rowCols": "18.5781px 227.422px",
+      "containerWidth": 390,
+      "containerLeft": 0,
+      "trustWidth": 390,
+      "viewportW": 390,
+      "borderTop": "1px",
+      "boundaryGap": 0,
+      "headerSticky": true,
+      "railOverlap": false,
+      "overflowX": false
+    }
+  }
+}

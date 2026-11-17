@@ -1,0 +1,74 @@
+{
+  "accentStats": {
+    "sparse": {
+      "ringCount": 10,
+      "perRing": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "total": 5,
+      "avg": 0.5
+    },
+    "balanced": {
+      "ringCount": 10,
+      "perRing": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "total": 14,
+      "avg": 1.4
+    }
+  },
+  "1920x1080": {
+    "light": {
+      "overflowX": false,
+      "h1H": 144,
+      "pe": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "h1H": 144,
+      "pe": "none"
+    }
+  },
+  "1440x900": {
+    "light": {
+      "overflowX": false,
+      "h1H": 136,
+      "pe": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "h1H": 136,
+      "pe": "none"
+    }
+  },
+  "768x1024": {
+    "light": {
+      "overflowX": false,
+      "h1H": 104,
+      "pe": "none"
+    },
+    "dark": {
+      "overflowX": false,
+      "h1H": 104,
+      "pe": "none"
+    }
+  }
+}

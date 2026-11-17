@@ -1,0 +1,118 @@
+{
+  "A_firstSample": {
+    "t": 150,
+    "progress": 0,
+    "score": "0.00%",
+    "bar": "0%",
+    "marks": [
+      0,
+      0
+    ]
+  },
+  "A_samples": [
+    {
+      "t": 150,
+      "progress": 0,
+      "score": "0.00%",
+      "bar": "0%",
+      "marks": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 264,
+      "progress": 0,
+      "score": "0.00%",
+      "bar": "0%",
+      "marks": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 406,
+      "progress": 0.2119,
+      "score": "17.29%",
+      "bar": "17.2872%",
+      "marks": [
+        0.42375743477406047,
+        0
+      ]
+    }
+  ],
+  "A_startsNearZero": true,
+  "A_progresses": true,
+  "C_final": {
+    "score": "81.59%",
+    "progress": 1
+  },
+  "E_replayFirst": {
+    "t": 163,
+    "progress": 0,
+    "score": "0.00%",
+    "bar": "0%",
+    "marks": [
+      0,
+      0
+    ]
+  },
+  "E_replaySamples": [
+    {
+      "t": 163,
+      "progress": 0,
+      "score": "0.00%",
+      "bar": "0%",
+      "marks": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 241,
+      "progress": 0,
+      "score": "0.00%",
+      "bar": "0%",
+      "marks": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 326,
+      "progress": 0.1498,
+      "score": "12.22%",
+      "bar": "12.2193%",
+      "marks": [
+        0.2995284270862202,
+        0
+      ]
+    },
+    {
+      "t": 412,
+      "progress": 0.3147,
+      "score": "25.68%",
+      "bar": "25.6801%",
+      "marks": [
+        0.6294907163279186,
+        0
+      ]
+    },
+    {
+      "t": 497,
+      "progress": 0.4551,
+      "score": "37.13%",
+      "bar": "37.1319%",
+      "marks": [
+        0.9102068987605216,
+        0
+      ]
+    }
+  ],
+  "E_replayStartsLow": true,
+  "E_replayProgresses": true,
+  "E_final": {
+    "score": "81.59%",
+    "progress": 1
+  }
+}

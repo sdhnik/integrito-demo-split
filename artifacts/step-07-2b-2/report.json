@@ -1,0 +1,122 @@
+[
+  {
+    "id": "G",
+    "ok": true,
+    "d": "Simulating analysis"
+  },
+  {
+    "id": "A",
+    "ok": true,
+    "d": "19.50%"
+  },
+  {
+    "id": "D",
+    "ok": true,
+    "d": "match"
+  },
+  {
+    "id": "Q",
+    "ok": true,
+    "d": "Preview result · No live AI analysis"
+  },
+  {
+    "id": "H",
+    "ok": true,
+    "d": "ok"
+  },
+  {
+    "id": "L",
+    "ok": true,
+    "d": "ok"
+  },
+  {
+    "id": "F",
+    "ok": true,
+    "d": "19.50%"
+  },
+  {
+    "id": "M",
+    "ok": true,
+    "d": "recheck"
+  },
+  {
+    "id": "I",
+    "ok": true,
+    "d": "{\"phase\":\"result\",\"score\":\"19.50%\",\"demo\":false}"
+  },
+  {
+    "id": "K",
+    "ok": true,
+    "d": "expanded"
+  },
+  {
+    "id": "J",
+    "ok": true,
+    "d": "processing"
+  },
+  {
+    "id": "N",
+    "ok": true,
+    "d": "dup"
+  },
+  {
+    "id": "O",
+    "ok": true,
+    "d": "unit cancel"
+  },
+  {
+    "id": "P",
+    "ok": true,
+    "d": "error+retry"
+  },
+  {
+    "id": "B",
+    "ok": true,
+    "d": "500"
+  },
+  {
+    "id": "C",
+    "ok": true,
+    "d": "2900"
+  },
+  {
+    "id": "E",
+    "ok": true,
+    "d": "true"
+  },
+  {
+    "id": "S",
+    "ok": true,
+    "d": "dark"
+  },
+  {
+    "id": "V",
+    "ok": true,
+    "d": "{\"w\":640,\"h\":562}"
+  },
+  {
+    "id": "T",
+    "ok": true,
+    "d": "mobile"
+  },
+  {
+    "id": "U",
+    "ok": true,
+    "d": "37.07%"
+  },
+  {
+    "id": "R",
+    "ok": true,
+    "d": "disabled default in prod"
+  },
+  {
+    "id": "REC",
+    "ok": true,
+    "d": "artifacts/step-07-2b-2/input-processing-result.webm"
+  },
+  {
+    "id": "W",
+    "ok": true,
+    "d": "dist/assets/index-UMl9FyMy.js                  241.66 kB │ gzip: 77.38 kB | ✓ built in 1.23s"
+  }
+]

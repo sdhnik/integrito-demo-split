@@ -1,0 +1,41 @@
+{
+  "tests": {
+    "A_step1Preview": true,
+    "B_step2Processing": true,
+    "B_detail": {
+      "valueLen": 565,
+      "snippet": "People often imagine that their lives ar",
+      "isDemo": true,
+      "isProcessing": true,
+      "processingText": "Analyzing sample text",
+      "promptH": 468,
+      "toolbarTop": 648,
+      "composer": {
+        "w": 640,
+        "h": 550
+      },
+      "overflowX": false
+    },
+    "C_backStep1Preview": true,
+    "D_heroIdle": true,
+    "E_focusHidesProcessing": true,
+    "E_blurResumesProcessing": true,
+    "F_draftBlocksDemo": true,
+    "G_clearBlurResumes": true,
+    "reducedMotionStillShows": true
+  },
+  "geometry": {
+    "promptH_step1": 468,
+    "promptH_step2": 468,
+    "promptH_delta": 0,
+    "composerSize_delta": {
+      "w": 0,
+      "h": 0
+    }
+  },
+  "mobile": {
+    "H_noProcessing": true,
+    "tablet_noProcessing": true
+  },
+  "video": "processing-animation.webm"
+}

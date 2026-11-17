@@ -1,0 +1,1879 @@
+{
+  "viewports": {
+    "1920x1080": {
+      "light": {
+        "A": {
+          "scrollY": 4320,
+          "headerTop": 0,
+          "railTop": 64,
+          "spiralTop": 64,
+          "stageBottom": 1080,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 4482,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 64,
+            "docTop": 4482,
+            "docBottom": 4546
+          },
+          "rail": {
+            "top": -98,
+            "bottom": 918,
+            "left": 944,
+            "right": 1616,
+            "width": 672,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "spiral": {
+            "top": -98,
+            "bottom": 918,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "stage": {
+            "top": -4418,
+            "bottom": 918,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 5336,
+            "docTop": 64,
+            "docBottom": 5400
+          },
+          "trust": {
+            "top": 918,
+            "bottom": 1998,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1080,
+            "docTop": 5400,
+            "docBottom": 6480
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 5022,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 64,
+            "docTop": 5022,
+            "docBottom": 5086
+          },
+          "rail": {
+            "top": -638,
+            "bottom": 378,
+            "left": 944,
+            "right": 1616,
+            "width": 672,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "spiral": {
+            "top": -638,
+            "bottom": 378,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "stage": {
+            "top": -4958,
+            "bottom": 378,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 5336,
+            "docTop": 64,
+            "docBottom": 5400
+          },
+          "trust": {
+            "top": 378,
+            "bottom": 1458,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1080,
+            "docTop": 5400,
+            "docBottom": 6480
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 5400,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 64,
+            "docTop": 5400,
+            "docBottom": 5464
+          },
+          "rail": {
+            "top": -1016,
+            "bottom": 0,
+            "left": 944,
+            "right": 1616,
+            "width": 672,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "spiral": {
+            "top": -1016,
+            "bottom": 0,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "stage": {
+            "top": -5336,
+            "bottom": 0,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 5336,
+            "docTop": 64,
+            "docBottom": 5400
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 1080,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1080,
+            "docTop": 5400,
+            "docBottom": 6480
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      },
+      "dark": {
+        "A": {
+          "scrollY": 4320,
+          "headerTop": 0,
+          "railTop": 64,
+          "spiralTop": 64,
+          "stageBottom": 1080,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 4482,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 64,
+            "docTop": 4482,
+            "docBottom": 4546
+          },
+          "rail": {
+            "top": -98,
+            "bottom": 918,
+            "left": 944,
+            "right": 1616,
+            "width": 672,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "spiral": {
+            "top": -98,
+            "bottom": 918,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "stage": {
+            "top": -4418,
+            "bottom": 918,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 5336,
+            "docTop": 64,
+            "docBottom": 5400
+          },
+          "trust": {
+            "top": 918,
+            "bottom": 1998,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1080,
+            "docTop": 5400,
+            "docBottom": 6480
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 5022,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 64,
+            "docTop": 5022,
+            "docBottom": 5086
+          },
+          "rail": {
+            "top": -638,
+            "bottom": 378,
+            "left": 944,
+            "right": 1616,
+            "width": 672,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "spiral": {
+            "top": -638,
+            "bottom": 378,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "stage": {
+            "top": -4958,
+            "bottom": 378,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 5336,
+            "docTop": 64,
+            "docBottom": 5400
+          },
+          "trust": {
+            "top": 378,
+            "bottom": 1458,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1080,
+            "docTop": 5400,
+            "docBottom": 6480
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 5400,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 64,
+            "docTop": 5400,
+            "docBottom": 5464
+          },
+          "rail": {
+            "top": -1016,
+            "bottom": 0,
+            "left": 944,
+            "right": 1616,
+            "width": 672,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "spiral": {
+            "top": -1016,
+            "bottom": 0,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1016,
+            "docTop": 4384,
+            "docBottom": 5400
+          },
+          "stage": {
+            "top": -5336,
+            "bottom": 0,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 5336,
+            "docTop": 64,
+            "docBottom": 5400
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 1080,
+            "left": 0,
+            "right": 1920,
+            "width": 1920,
+            "height": 1080,
+            "docTop": 5400,
+            "docBottom": 6480
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      }
+    },
+    "1440x900": {
+      "light": {
+        "A": {
+          "scrollY": 3600,
+          "headerTop": 0,
+          "railTop": 64,
+          "spiralTop": 64,
+          "stageBottom": 900,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 3735,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 64,
+            "docTop": 3735,
+            "docBottom": 3799
+          },
+          "rail": {
+            "top": -71,
+            "bottom": 765,
+            "left": 704,
+            "right": 1376,
+            "width": 672,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "spiral": {
+            "top": -71,
+            "bottom": 765,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "stage": {
+            "top": -3671,
+            "bottom": 765,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 4436,
+            "docTop": 64,
+            "docBottom": 4500
+          },
+          "trust": {
+            "top": 765,
+            "bottom": 1665,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900,
+            "docTop": 4500,
+            "docBottom": 5400
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 4185,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 64,
+            "docTop": 4185,
+            "docBottom": 4249
+          },
+          "rail": {
+            "top": -521,
+            "bottom": 315,
+            "left": 704,
+            "right": 1376,
+            "width": 672,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "spiral": {
+            "top": -521,
+            "bottom": 315,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "stage": {
+            "top": -4121,
+            "bottom": 315,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 4436,
+            "docTop": 64,
+            "docBottom": 4500
+          },
+          "trust": {
+            "top": 315,
+            "bottom": 1215,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900,
+            "docTop": 4500,
+            "docBottom": 5400
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 4500,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 64,
+            "docTop": 4500,
+            "docBottom": 4564
+          },
+          "rail": {
+            "top": -836,
+            "bottom": 0,
+            "left": 704,
+            "right": 1376,
+            "width": 672,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "spiral": {
+            "top": -836,
+            "bottom": 0,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "stage": {
+            "top": -4436,
+            "bottom": 0,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 4436,
+            "docTop": 64,
+            "docBottom": 4500
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 900,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900,
+            "docTop": 4500,
+            "docBottom": 5400
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      },
+      "dark": {
+        "A": {
+          "scrollY": 3600,
+          "headerTop": 0,
+          "railTop": 64,
+          "spiralTop": 64,
+          "stageBottom": 900,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 3735,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 64,
+            "docTop": 3735,
+            "docBottom": 3799
+          },
+          "rail": {
+            "top": -71,
+            "bottom": 765,
+            "left": 704,
+            "right": 1376,
+            "width": 672,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "spiral": {
+            "top": -71,
+            "bottom": 765,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "stage": {
+            "top": -3671,
+            "bottom": 765,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 4436,
+            "docTop": 64,
+            "docBottom": 4500
+          },
+          "trust": {
+            "top": 765,
+            "bottom": 1665,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900,
+            "docTop": 4500,
+            "docBottom": 5400
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 4185,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 64,
+            "docTop": 4185,
+            "docBottom": 4249
+          },
+          "rail": {
+            "top": -521,
+            "bottom": 315,
+            "left": 704,
+            "right": 1376,
+            "width": 672,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "spiral": {
+            "top": -521,
+            "bottom": 315,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "stage": {
+            "top": -4121,
+            "bottom": 315,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 4436,
+            "docTop": 64,
+            "docBottom": 4500
+          },
+          "trust": {
+            "top": 315,
+            "bottom": 1215,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900,
+            "docTop": 4500,
+            "docBottom": 5400
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 4500,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 64,
+            "docTop": 4500,
+            "docBottom": 4564
+          },
+          "rail": {
+            "top": -836,
+            "bottom": 0,
+            "left": 704,
+            "right": 1376,
+            "width": 672,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "spiral": {
+            "top": -836,
+            "bottom": 0,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 836,
+            "docTop": 3664,
+            "docBottom": 4500
+          },
+          "stage": {
+            "top": -4436,
+            "bottom": 0,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 4436,
+            "docTop": 64,
+            "docBottom": 4500
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 900,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900,
+            "docTop": 4500,
+            "docBottom": 5400
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      }
+    },
+    "1280x720": {
+      "light": {
+        "A": {
+          "scrollY": 2880,
+          "headerTop": 0,
+          "railTop": 64,
+          "spiralTop": 64,
+          "stageBottom": 720,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 2988,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 64,
+            "docTop": 2988,
+            "docBottom": 3052
+          },
+          "rail": {
+            "top": -44,
+            "bottom": 612,
+            "left": 637,
+            "right": 1216,
+            "width": 579,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "spiral": {
+            "top": -44,
+            "bottom": 612,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "stage": {
+            "top": -2924,
+            "bottom": 612,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 3536,
+            "docTop": 64,
+            "docBottom": 3600
+          },
+          "trust": {
+            "top": 612,
+            "bottom": 1413,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 801,
+            "docTop": 3600,
+            "docBottom": 4401
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 3348,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 64,
+            "docTop": 3348,
+            "docBottom": 3412
+          },
+          "rail": {
+            "top": -404,
+            "bottom": 252,
+            "left": 637,
+            "right": 1216,
+            "width": 579,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "spiral": {
+            "top": -404,
+            "bottom": 252,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "stage": {
+            "top": -3284,
+            "bottom": 252,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 3536,
+            "docTop": 64,
+            "docBottom": 3600
+          },
+          "trust": {
+            "top": 252,
+            "bottom": 1053,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 801,
+            "docTop": 3600,
+            "docBottom": 4401
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 3600,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 64,
+            "docTop": 3600,
+            "docBottom": 3664
+          },
+          "rail": {
+            "top": -656,
+            "bottom": 0,
+            "left": 637,
+            "right": 1216,
+            "width": 579,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "spiral": {
+            "top": -656,
+            "bottom": 0,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "stage": {
+            "top": -3536,
+            "bottom": 0,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 3536,
+            "docTop": 64,
+            "docBottom": 3600
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 801,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 801,
+            "docTop": 3600,
+            "docBottom": 4401
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      },
+      "dark": {
+        "A": {
+          "scrollY": 2880,
+          "headerTop": 0,
+          "railTop": 64,
+          "spiralTop": 64,
+          "stageBottom": 720,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 2988,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 64,
+            "docTop": 2988,
+            "docBottom": 3052
+          },
+          "rail": {
+            "top": -44,
+            "bottom": 612,
+            "left": 637,
+            "right": 1216,
+            "width": 579,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "spiral": {
+            "top": -44,
+            "bottom": 612,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "stage": {
+            "top": -2924,
+            "bottom": 612,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 3536,
+            "docTop": 64,
+            "docBottom": 3600
+          },
+          "trust": {
+            "top": 612,
+            "bottom": 1413,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 801,
+            "docTop": 3600,
+            "docBottom": 4401
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 3348,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 64,
+            "docTop": 3348,
+            "docBottom": 3412
+          },
+          "rail": {
+            "top": -404,
+            "bottom": 252,
+            "left": 637,
+            "right": 1216,
+            "width": 579,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "spiral": {
+            "top": -404,
+            "bottom": 252,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "stage": {
+            "top": -3284,
+            "bottom": 252,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 3536,
+            "docTop": 64,
+            "docBottom": 3600
+          },
+          "trust": {
+            "top": 252,
+            "bottom": 1053,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 801,
+            "docTop": 3600,
+            "docBottom": 4401
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 3600,
+          "header": {
+            "top": 0,
+            "bottom": 64,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 64,
+            "docTop": 3600,
+            "docBottom": 3664
+          },
+          "rail": {
+            "top": -656,
+            "bottom": 0,
+            "left": 637,
+            "right": 1216,
+            "width": 579,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "spiral": {
+            "top": -656,
+            "bottom": 0,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 656,
+            "docTop": 2944,
+            "docBottom": 3600
+          },
+          "stage": {
+            "top": -3536,
+            "bottom": 0,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 3536,
+            "docTop": 64,
+            "docBottom": 3600
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 801,
+            "left": 0,
+            "right": 1280,
+            "width": 1280,
+            "height": 801,
+            "docTop": 3600,
+            "docBottom": 4401
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      }
+    },
+    "768x1024": {
+      "light": {
+        "A": {
+          "scrollY": 4096,
+          "headerTop": 0,
+          "railTop": -3671,
+          "spiralTop": -4004,
+          "stageBottom": 1024,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 4249,
+          "header": {
+            "top": 0,
+            "bottom": 92,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 92,
+            "docTop": 4249,
+            "docBottom": 4341
+          },
+          "rail": {
+            "top": -3824,
+            "bottom": -3322,
+            "left": 64,
+            "right": 576,
+            "width": 512,
+            "height": 502,
+            "docTop": 425,
+            "docBottom": 927
+          },
+          "spiral": {
+            "top": -4157,
+            "bottom": -3225,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 932,
+            "docTop": 92,
+            "docBottom": 1024
+          },
+          "stage": {
+            "top": -4157,
+            "bottom": 871,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 5028,
+            "docTop": 92,
+            "docBottom": 5120
+          },
+          "trust": {
+            "top": 871,
+            "bottom": 1895,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 1024,
+            "docTop": 5120,
+            "docBottom": 6144
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 4761,
+          "header": {
+            "top": 0,
+            "bottom": 92,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 92,
+            "docTop": 4761,
+            "docBottom": 4853
+          },
+          "rail": {
+            "top": -4336,
+            "bottom": -3834,
+            "left": 64,
+            "right": 576,
+            "width": 512,
+            "height": 502,
+            "docTop": 425,
+            "docBottom": 927
+          },
+          "spiral": {
+            "top": -4669,
+            "bottom": -3737,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 932,
+            "docTop": 92,
+            "docBottom": 1024
+          },
+          "stage": {
+            "top": -4669,
+            "bottom": 359,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 5028,
+            "docTop": 92,
+            "docBottom": 5120
+          },
+          "trust": {
+            "top": 359,
+            "bottom": 1383,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 1024,
+            "docTop": 5120,
+            "docBottom": 6144
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 5120,
+          "header": {
+            "top": 0,
+            "bottom": 92,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 92,
+            "docTop": 5120,
+            "docBottom": 5212
+          },
+          "rail": {
+            "top": -4695,
+            "bottom": -4193,
+            "left": 64,
+            "right": 576,
+            "width": 512,
+            "height": 502,
+            "docTop": 425,
+            "docBottom": 927
+          },
+          "spiral": {
+            "top": -5028,
+            "bottom": -4096,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 932,
+            "docTop": 92,
+            "docBottom": 1024
+          },
+          "stage": {
+            "top": -5028,
+            "bottom": 0,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 5028,
+            "docTop": 92,
+            "docBottom": 5120
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 1024,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 1024,
+            "docTop": 5120,
+            "docBottom": 6144
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      },
+      "dark": {
+        "A": {
+          "scrollY": 4096,
+          "headerTop": 0,
+          "railTop": -3671,
+          "spiralTop": -4004,
+          "stageBottom": 1024,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 4249,
+          "header": {
+            "top": 0,
+            "bottom": 92,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 92,
+            "docTop": 4249,
+            "docBottom": 4341
+          },
+          "rail": {
+            "top": -3824,
+            "bottom": -3322,
+            "left": 64,
+            "right": 576,
+            "width": 512,
+            "height": 502,
+            "docTop": 425,
+            "docBottom": 927
+          },
+          "spiral": {
+            "top": -4157,
+            "bottom": -3225,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 932,
+            "docTop": 92,
+            "docBottom": 1024
+          },
+          "stage": {
+            "top": -4157,
+            "bottom": 871,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 5028,
+            "docTop": 92,
+            "docBottom": 5120
+          },
+          "trust": {
+            "top": 871,
+            "bottom": 1895,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 1024,
+            "docTop": 5120,
+            "docBottom": 6144
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 4761,
+          "header": {
+            "top": 0,
+            "bottom": 92,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 92,
+            "docTop": 4761,
+            "docBottom": 4853
+          },
+          "rail": {
+            "top": -4336,
+            "bottom": -3834,
+            "left": 64,
+            "right": 576,
+            "width": 512,
+            "height": 502,
+            "docTop": 425,
+            "docBottom": 927
+          },
+          "spiral": {
+            "top": -4669,
+            "bottom": -3737,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 932,
+            "docTop": 92,
+            "docBottom": 1024
+          },
+          "stage": {
+            "top": -4669,
+            "bottom": 359,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 5028,
+            "docTop": 92,
+            "docBottom": 5120
+          },
+          "trust": {
+            "top": 359,
+            "bottom": 1383,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 1024,
+            "docTop": 5120,
+            "docBottom": 6144
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 5120,
+          "header": {
+            "top": 0,
+            "bottom": 92,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 92,
+            "docTop": 5120,
+            "docBottom": 5212
+          },
+          "rail": {
+            "top": -4695,
+            "bottom": -4193,
+            "left": 64,
+            "right": 576,
+            "width": 512,
+            "height": 502,
+            "docTop": 425,
+            "docBottom": 927
+          },
+          "spiral": {
+            "top": -5028,
+            "bottom": -4096,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 932,
+            "docTop": 92,
+            "docBottom": 1024
+          },
+          "stage": {
+            "top": -5028,
+            "bottom": 0,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 5028,
+            "docTop": 92,
+            "docBottom": 5120
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 1024,
+            "left": 0,
+            "right": 768,
+            "width": 768,
+            "height": 1024,
+            "docTop": 5120,
+            "docBottom": 6144
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      }
+    },
+    "390x844": {
+      "light": {
+        "A": {
+          "scrollY": 3376,
+          "headerTop": 0,
+          "railTop": -2945,
+          "spiralTop": -3252,
+          "stageBottom": 844,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 3502,
+          "header": {
+            "top": 0,
+            "bottom": 124,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 124,
+            "docTop": 3502,
+            "docBottom": 3626
+          },
+          "rail": {
+            "top": -3071,
+            "bottom": -2669,
+            "left": 64,
+            "right": 326,
+            "width": 262,
+            "height": 402,
+            "docTop": 431,
+            "docBottom": 833
+          },
+          "spiral": {
+            "top": -3378,
+            "bottom": -2658,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 720,
+            "docTop": 124,
+            "docBottom": 844
+          },
+          "stage": {
+            "top": -3378,
+            "bottom": 718,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 4096,
+            "docTop": 124,
+            "docBottom": 4220
+          },
+          "trust": {
+            "top": 718,
+            "bottom": 2295,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 1577,
+            "docTop": 4220,
+            "docBottom": 5797
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 3924,
+          "header": {
+            "top": 0,
+            "bottom": 124,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 124,
+            "docTop": 3924,
+            "docBottom": 4048
+          },
+          "rail": {
+            "top": -3493,
+            "bottom": -3091,
+            "left": 64,
+            "right": 326,
+            "width": 262,
+            "height": 402,
+            "docTop": 431,
+            "docBottom": 833
+          },
+          "spiral": {
+            "top": -3800,
+            "bottom": -3080,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 720,
+            "docTop": 124,
+            "docBottom": 844
+          },
+          "stage": {
+            "top": -3800,
+            "bottom": 296,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 4096,
+            "docTop": 124,
+            "docBottom": 4220
+          },
+          "trust": {
+            "top": 296,
+            "bottom": 1873,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 1577,
+            "docTop": 4220,
+            "docBottom": 5797
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 4220,
+          "header": {
+            "top": 0,
+            "bottom": 124,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 124,
+            "docTop": 4220,
+            "docBottom": 4344
+          },
+          "rail": {
+            "top": -3789,
+            "bottom": -3387,
+            "left": 64,
+            "right": 326,
+            "width": 262,
+            "height": 402,
+            "docTop": 431,
+            "docBottom": 833
+          },
+          "spiral": {
+            "top": -4096,
+            "bottom": -3376,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 720,
+            "docTop": 124,
+            "docBottom": 844
+          },
+          "stage": {
+            "top": -4096,
+            "bottom": 0,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 4096,
+            "docTop": 124,
+            "docBottom": 4220
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 1577,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 1577,
+            "docTop": 4220,
+            "docBottom": 5797
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      },
+      "dark": {
+        "A": {
+          "scrollY": 3376,
+          "headerTop": 0,
+          "railTop": -2945,
+          "spiralTop": -3252,
+          "stageBottom": 844,
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "B": {
+          "scrollY": 3502,
+          "header": {
+            "top": 0,
+            "bottom": 124,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 124,
+            "docTop": 3502,
+            "docBottom": 3626
+          },
+          "rail": {
+            "top": -3071,
+            "bottom": -2669,
+            "left": 64,
+            "right": 326,
+            "width": 262,
+            "height": 402,
+            "docTop": 431,
+            "docBottom": 833
+          },
+          "spiral": {
+            "top": -3378,
+            "bottom": -2658,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 720,
+            "docTop": 124,
+            "docBottom": 844
+          },
+          "stage": {
+            "top": -3378,
+            "bottom": 718,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 4096,
+            "docTop": 124,
+            "docBottom": 4220
+          },
+          "trust": {
+            "top": 718,
+            "bottom": 2295,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 1577,
+            "docTop": 4220,
+            "docBottom": 5797
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false
+        },
+        "C": {
+          "scrollY": 3924,
+          "header": {
+            "top": 0,
+            "bottom": 124,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 124,
+            "docTop": 3924,
+            "docBottom": 4048
+          },
+          "rail": {
+            "top": -3493,
+            "bottom": -3091,
+            "left": 64,
+            "right": 326,
+            "width": 262,
+            "height": 402,
+            "docTop": 431,
+            "docBottom": 833
+          },
+          "spiral": {
+            "top": -3800,
+            "bottom": -3080,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 720,
+            "docTop": 124,
+            "docBottom": 844
+          },
+          "stage": {
+            "top": -3800,
+            "bottom": 296,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 4096,
+            "docTop": 124,
+            "docBottom": 4220
+          },
+          "trust": {
+            "top": 296,
+            "bottom": 1873,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 1577,
+            "docTop": 4220,
+            "docBottom": 5797
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "trustAfterStage": true,
+          "headerSticky": true
+        },
+        "D": {
+          "scrollY": 4220,
+          "header": {
+            "top": 0,
+            "bottom": 124,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 124,
+            "docTop": 4220,
+            "docBottom": 4344
+          },
+          "rail": {
+            "top": -3789,
+            "bottom": -3387,
+            "left": 64,
+            "right": 326,
+            "width": 262,
+            "height": 402,
+            "docTop": 431,
+            "docBottom": 833
+          },
+          "spiral": {
+            "top": -4096,
+            "bottom": -3376,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 720,
+            "docTop": 124,
+            "docBottom": 844
+          },
+          "stage": {
+            "top": -4096,
+            "bottom": 0,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 4096,
+            "docTop": 124,
+            "docBottom": 4220
+          },
+          "trust": {
+            "top": 0,
+            "bottom": 1577,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 1577,
+            "docTop": 4220,
+            "docBottom": 5797
+          },
+          "overlapRailTrust": false,
+          "overlapSpiralTrust": false,
+          "headerSticky": true,
+          "railOffscreen": true,
+          "spiralOffscreen": true,
+          "overflowX": false
+        },
+        "trustHeading": "Why you can trust our AI content detector",
+        "overflowAny": false
+      }
+    }
+  },
+  "howPreserved": {
+    "hasLabel": false,
+    "stepCount": 3,
+    "step1Body": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website.",
+    "headerBorderTop": "0px",
+    "headerBorderBottom": "1px"
+  },
+  "orderDesktop": [
+    "composer",
+    "hero",
+    "brand",
+    "how1",
+    "how2",
+    "how3",
+    "trust"
+  ],
+  "orderMobile": [
+    "hero",
+    "composer",
+    "brand",
+    "how1",
+    "how2",
+    "how3",
+    "trust"
+  ]
+}

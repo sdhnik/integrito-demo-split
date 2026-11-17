@@ -1,0 +1,112 @@
+[
+  {
+    "id": "A",
+    "ok": true,
+    "detail": "empty open/close"
+  },
+  {
+    "id": "B",
+    "ok": true,
+    "detail": "text preserved"
+  },
+  {
+    "id": "C",
+    "ok": true,
+    "detail": "{\"scrollable\":true,\"detectVisible\":true,\"toolbar\":true,\"overflowX\":false,\"dialogBottom\":true,\"dialogTop\":true,\"words\":2500}"
+  },
+  {
+    "id": "D",
+    "ok": true,
+    "detail": "preview; freeze true"
+  },
+  {
+    "id": "E",
+    "ok": true,
+    "detail": "detector-composer is-demo is-demo-processing is-expanded"
+  },
+  {
+    "id": "F",
+    "ok": true,
+    "detail": "{\"cls\":\"detector-composer is-demo is-demo-result is-expanded\",\"score\":true,\"result\":true,\"highlights\":true}"
+  },
+  {
+    "id": "G",
+    "ok": true,
+    "detail": "{\"hasTa\":true,\"editable\":true,\"focused\":true,\"noResult\":true,\"preserved\":\"Takeover text after demo click.\"}"
+  },
+  {
+    "id": "H",
+    "ok": true,
+    "detail": "escape closes"
+  },
+  {
+    "id": "I",
+    "ok": true,
+    "detail": "{\"focusOpen\":\"Collapse editor\",\"inside\":true,\"focusClose\":\"Expand editor\",\"scrollY\":3465}"
+  },
+  {
+    "id": "J",
+    "ok": true,
+    "detail": "scroll 2565→2565"
+  },
+  {
+    "id": "L",
+    "ok": true,
+    "detail": "{\"ta\":1,\"composers\":1,\"expanded\":1}"
+  },
+  {
+    "id": "M",
+    "ok": true,
+    "detail": "{\"compactGeom\":{\"w\":640,\"h\":562,\"overflowX\":false},\"afterGeom\":{\"w\":640,\"h\":562}}"
+  },
+  {
+    "id": "N",
+    "ok": true,
+    "detail": "no h-overflow"
+  },
+  {
+    "id": "REC",
+    "ok": true,
+    "detail": "expand-collapse recorded"
+  },
+  {
+    "id": "K",
+    "ok": true,
+    "detail": "{\"anim\":\"none\",\"opacity\":\"1\",\"transform\":\"matrix(1, 0, 0, 1, -277.117, 0)\"}"
+  },
+  {
+    "id": "DARK",
+    "ok": true,
+    "detail": "dark screenshots"
+  },
+  {
+    "id": "VP-1920",
+    "ok": true,
+    "detail": "fits viewport"
+  },
+  {
+    "id": "VP-1280",
+    "ok": true,
+    "detail": "fits viewport"
+  },
+  {
+    "id": "VP-768",
+    "ok": true,
+    "detail": "fits viewport"
+  },
+  {
+    "id": "VP-390",
+    "ok": true,
+    "detail": "fits viewport"
+  },
+  {
+    "id": "VIDEO",
+    "ok": true,
+    "detail": "/home/aleksey/applications/integrito.split/artifacts/step-07-1/expand-collapse.webm"
+  },
+  {
+    "id": "O",
+    "ok": true,
+    "detail": "rendering chunks... | computing gzip size... | dist/index.html                                  1.74 kB │ gzip:  0.81 kB | dist/assets/integrito-logo-white-CeNSmUmy.svg   37.88 kB │ gzip: 13.80 kB | dist/assets/integrito-logo-black-DOD50vEH.svg   37.93 kB │ gzip: 13.82 kB | dist/assets/index-Dj3dh1sc.css                  33.05 kB │ gzip:  6.42 kB | dist/assets/index-BjAe86W8.js                  233.36 kB │ gzip: 74.64 kB | ✓ built in 1.73s"
+  }
+]

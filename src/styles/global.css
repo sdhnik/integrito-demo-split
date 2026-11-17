@@ -5,6 +5,11 @@
 html {
   background-color: var(--color-bg);
   color-scheme: light dark;
+  /*
+    Do not set overflow-x here — it can force overflow-y to compute to auto
+    and break position:sticky for WorkspaceRail / SpiralBackground.
+    Oversized spiral paint clips on .spiral-background only (Step 5.3).
+  */
 }
 
 html[data-theme="light"] {
@@ -17,7 +22,7 @@ html[data-theme="dark"] {
 
 body {
   font-family: var(--font-sans);
-  font-size: var(--text-base);
+  font-size: var(--text-body);
   font-weight: var(--weight-regular);
   color: var(--color-text);
   background-color: var(--color-bg);

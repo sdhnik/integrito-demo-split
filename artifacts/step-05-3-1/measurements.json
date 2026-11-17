@@ -1,0 +1,189 @@
+{
+  "firstScreen": {
+    "1920x1080": {
+      "light": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 64
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      },
+      "dark": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 64
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      }
+    },
+    "1440x900": {
+      "light": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 64
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      },
+      "dark": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 64
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      }
+    },
+    "1280x720": {
+      "light": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 64
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      },
+      "dark": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 64
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      }
+    },
+    "768x1024": {
+      "light": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 92
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      },
+      "dark": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 92
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      }
+    },
+    "390x844": {
+      "light": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 124
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      },
+      "dark": {
+        "cmp": {
+          "h1Top": 0,
+          "composerTop": 0,
+          "composerLeft": 0,
+          "composerH": 0,
+          "spiralH": 0,
+          "headerH": 124
+        },
+        "headerPos": "sticky",
+        "headerTop": 0
+      }
+    }
+  },
+  "scroll": {
+    "1440": {
+      "A": {
+        "headerTop": 0,
+        "headerH": 64,
+        "railTop": 64,
+        "spiralTop": 64
+      },
+      "B": {
+        "headerTop": 0,
+        "headerH": 64,
+        "railTop": 1,
+        "spiralTop": 1,
+        "composerTop": 144.2,
+        "overlap": false
+      },
+      "C": {
+        "headerTop": 0,
+        "railTop": 44,
+        "spiralTop": 44,
+        "stageBottom": 880
+      },
+      "D": {
+        "headerTop": 0,
+        "headerStill": true,
+        "railBottom": -180,
+        "spiralBottom": -180,
+        "stageBottom": -180,
+        "workspaceGone": true,
+        "spiralGone": true
+      },
+      "headerAlwaysZero": true,
+      "headerHStable": true,
+      "workspaceBelowHeaderAtB": false,
+      "spiralBelowHeaderAtB": false
+    }
+  },
+  "scrollRecheck": {
+    "B": {
+      "scrollY": 700,
+      "headerTop": 0,
+      "headerH": 64,
+      "railTop": 64,
+      "spiralTop": 64,
+      "railCssTop": "64px",
+      "spiralCssTop": "64px",
+      "token": "64px",
+      "below": true
+    },
+    "D": {
+      "headerTop": 0,
+      "railBottom": -180,
+      "spiralBottom": -180
+    }
+  }
+}

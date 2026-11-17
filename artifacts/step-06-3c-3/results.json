@@ -1,0 +1,41 @@
+{
+  "tests": {
+    "enterStep2": {
+      "mounted": true,
+      "animates": true,
+      "settles": true,
+      "footnote": true,
+      "promptDelta": 0,
+      "detail": {
+        "earlyOp": 0,
+        "midOp": 0.320005,
+        "doneOp": 1,
+        "anim": "detector-processing-enter"
+      }
+    },
+    "noRestartWhileActive": true,
+    "replay": {
+      "startsLow": true,
+      "settles": true,
+      "detail": {
+        "earlyOp": 0,
+        "doneOp": 1
+      }
+    },
+    "geometry": {
+      "promptDelta": 0,
+      "overflowX": false
+    },
+    "reducedMotion": true
+  },
+  "video": "processing-entrance.webm",
+  "checks": {
+    "enter": true,
+    "noRestart": true,
+    "replay": true,
+    "reduced": true,
+    "geometry": true,
+    "video": true
+  },
+  "allPass": true
+}

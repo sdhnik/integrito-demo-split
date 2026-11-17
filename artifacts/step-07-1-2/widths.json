@@ -1,0 +1,14 @@
+{
+  "rootCause": "Expanded dialog used width:auto with left:50%, so the fixed shell shrink-to-fit the toolbar. Clear increased intrinsic toolbar width and widened the dialog.",
+  "before": {
+    "1440": { "empty": 549, "withClear": 616, "delta": 67 }
+  },
+  "after": {
+    "1920": { "empty": 1100, "withClear": 1100, "afterClear": 1100 },
+    "1440": { "empty": 1100, "withClear": 1100, "afterClear": 1100 },
+    "1280": { "empty": 1100, "withClear": 1100, "afterClear": 1100 },
+    "768": { "empty": 720, "withClear": 720, "afterClear": 720 },
+    "390": { "empty": 390, "withClear": 390, "afterClear": 390 }
+  },
+  "compactUnchanged": { "w": 640, "h": 562 }
+}

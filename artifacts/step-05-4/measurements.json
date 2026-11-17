@@ -1,0 +1,618 @@
+{
+  "viewports": {
+    "1920x1080": {
+      "light": {
+        "at0": {
+          "h1Top": 446,
+          "composerTop": 261,
+          "railPosition": "sticky",
+          "headerPosition": "sticky",
+          "stageHeight": 3176,
+          "sectionCount": 2,
+          "minHeights": [
+            "1080px",
+            "1080px"
+          ],
+          "order": [
+            "composer",
+            "hero",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 64
+        },
+        "atBrand": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1174
+        },
+        "atHow": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 2160,
+          "howSectionTop": 0,
+          "howSectionHeight": 1080,
+          "viewportH": 1080
+        },
+        "atEnd": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 2160
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website, or scan right in your browser, Google Docs, or Learning Management System via our integrations."
+        },
+        "overflowAny": false
+      },
+      "dark": {
+        "at0": {
+          "h1Top": 446,
+          "composerTop": 261,
+          "railPosition": "sticky",
+          "headerPosition": "sticky",
+          "stageHeight": 3176,
+          "sectionCount": 2,
+          "minHeights": [
+            "1080px",
+            "1080px"
+          ],
+          "order": [
+            "composer",
+            "hero",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 64
+        },
+        "atBrand": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1174
+        },
+        "atHow": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 2160,
+          "howSectionTop": 0,
+          "howSectionHeight": 1080,
+          "viewportH": 1080
+        },
+        "atEnd": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 2160
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website, or scan right in your browser, Google Docs, or Learning Management System via our integrations."
+        },
+        "overflowAny": false
+      }
+    },
+    "1440x900": {
+      "light": {
+        "at0": {
+          "h1Top": 360,
+          "composerTop": 207,
+          "railPosition": "sticky",
+          "headerPosition": "sticky",
+          "stageHeight": 2636,
+          "sectionCount": 2,
+          "minHeights": [
+            "900px",
+            "900px"
+          ],
+          "order": [
+            "composer",
+            "hero",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 64
+        },
+        "atBrand": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 967
+        },
+        "atHow": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1800,
+          "howSectionTop": 0,
+          "howSectionHeight": 900,
+          "viewportH": 900
+        },
+        "atEnd": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1800
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website, or scan right in your browser, Google Docs, or Learning Management System via our integrations."
+        },
+        "overflowAny": false
+      },
+      "dark": {
+        "at0": {
+          "h1Top": 360,
+          "composerTop": 207,
+          "railPosition": "sticky",
+          "headerPosition": "sticky",
+          "stageHeight": 2636,
+          "sectionCount": 2,
+          "minHeights": [
+            "900px",
+            "900px"
+          ],
+          "order": [
+            "composer",
+            "hero",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 64
+        },
+        "atBrand": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 967
+        },
+        "atHow": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1800,
+          "howSectionTop": 0,
+          "howSectionHeight": 900,
+          "viewportH": 900
+        },
+        "atEnd": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1800
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website, or scan right in your browser, Google Docs, or Learning Management System via our integrations."
+        },
+        "overflowAny": false
+      }
+    },
+    "1280x720": {
+      "light": {
+        "at0": {
+          "h1Top": 260,
+          "composerTop": 164,
+          "railPosition": "sticky",
+          "headerPosition": "sticky",
+          "stageHeight": 2096,
+          "sectionCount": 2,
+          "minHeights": [
+            "720px",
+            "720px"
+          ],
+          "order": [
+            "composer",
+            "hero",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 64
+        },
+        "atBrand": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 760
+        },
+        "atHow": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1440,
+          "howSectionTop": 0,
+          "howSectionHeight": 720,
+          "viewportH": 720
+        },
+        "atEnd": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1440
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website, or scan right in your browser, Google Docs, or Learning Management System via our integrations."
+        },
+        "overflowAny": false
+      },
+      "dark": {
+        "at0": {
+          "h1Top": 260,
+          "composerTop": 164,
+          "railPosition": "sticky",
+          "headerPosition": "sticky",
+          "stageHeight": 2096,
+          "sectionCount": 2,
+          "minHeights": [
+            "720px",
+            "720px"
+          ],
+          "order": [
+            "composer",
+            "hero",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 64
+        },
+        "atBrand": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 760
+        },
+        "atHow": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1440,
+          "howSectionTop": 0,
+          "howSectionHeight": 720,
+          "viewportH": 720
+        },
+        "atEnd": {
+          "railTop": 64,
+          "spiralTop": 64,
+          "headerTop": 0,
+          "scrollY": 1440
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website, or scan right in your browser, Google Docs, or Learning Management System via our integrations."
+        },
+        "overflowAny": false
+      }
+    },
+    "768x1024": {
+      "light": {
+        "at0": {
+          "h1Top": 189,
+          "composerTop": 425,
+          "railPosition": "static",
+          "headerPosition": "sticky",
+          "stageHeight": 2980,
+          "sectionCount": 2,
+          "minHeights": [
+            "1024px",
+            "1024px"
+          ],
+          "order": [
+            "hero",
+            "composer",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 92
+        },
+        "atBrand": {
+          "railTop": -688,
+          "spiralTop": -1021,
+          "headerTop": 0,
+          "scrollY": 1113
+        },
+        "atHow": {
+          "railTop": -1623,
+          "spiralTop": -1956,
+          "headerTop": 0,
+          "scrollY": 2048,
+          "howSectionTop": 0,
+          "howSectionHeight": 1024,
+          "viewportH": 1024
+        },
+        "atEnd": {
+          "railTop": -1623,
+          "spiralTop": -1956,
+          "headerTop": 0,
+          "scrollY": 2048
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website."
+        },
+        "overflowAny": false
+      },
+      "dark": {
+        "at0": {
+          "h1Top": 189,
+          "composerTop": 425,
+          "railPosition": "static",
+          "headerPosition": "sticky",
+          "stageHeight": 2980,
+          "sectionCount": 2,
+          "minHeights": [
+            "1024px",
+            "1024px"
+          ],
+          "order": [
+            "hero",
+            "composer",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 92
+        },
+        "atBrand": {
+          "railTop": -688,
+          "spiralTop": -1021,
+          "headerTop": 0,
+          "scrollY": 1113
+        },
+        "atHow": {
+          "railTop": -1623,
+          "spiralTop": -1956,
+          "headerTop": 0,
+          "scrollY": 2048,
+          "howSectionTop": 0,
+          "howSectionHeight": 1024,
+          "viewportH": 1024
+        },
+        "atEnd": {
+          "railTop": -1623,
+          "spiralTop": -1956,
+          "headerTop": 0,
+          "scrollY": 2048
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website."
+        },
+        "overflowAny": false
+      }
+    },
+    "390x844": {
+      "light": {
+        "at0": {
+          "h1Top": 135,
+          "composerTop": 431,
+          "railPosition": "static",
+          "headerPosition": "sticky",
+          "stageHeight": 2408,
+          "sectionCount": 2,
+          "minHeights": [
+            "844px",
+            "844px"
+          ],
+          "order": [
+            "hero",
+            "composer",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 124
+        },
+        "atBrand": {
+          "railTop": -465,
+          "spiralTop": -772,
+          "headerTop": 0,
+          "scrollY": 896
+        },
+        "atHow": {
+          "railTop": -1257,
+          "spiralTop": -1564,
+          "headerTop": 0,
+          "scrollY": 1688,
+          "howSectionTop": 0,
+          "howSectionHeight": 844,
+          "viewportH": 844
+        },
+        "atEnd": {
+          "railTop": -1257,
+          "spiralTop": -1564,
+          "headerTop": 0,
+          "scrollY": 1688
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website."
+        },
+        "overflowAny": false
+      },
+      "dark": {
+        "at0": {
+          "h1Top": 135,
+          "composerTop": 431,
+          "railPosition": "static",
+          "headerPosition": "sticky",
+          "stageHeight": 2408,
+          "sectionCount": 2,
+          "minHeights": [
+            "844px",
+            "844px"
+          ],
+          "order": [
+            "hero",
+            "composer",
+            "brand",
+            "how"
+          ],
+          "overflowX": false,
+          "headerHVar": 124
+        },
+        "atBrand": {
+          "railTop": -465,
+          "spiralTop": -772,
+          "headerTop": 0,
+          "scrollY": 896
+        },
+        "atHow": {
+          "railTop": -1257,
+          "spiralTop": -1564,
+          "headerTop": 0,
+          "scrollY": 1688,
+          "howSectionTop": 0,
+          "howSectionHeight": 844,
+          "viewportH": 844
+        },
+        "atEnd": {
+          "railTop": -1257,
+          "spiralTop": -1564,
+          "headerTop": 0,
+          "scrollY": 1688
+        },
+        "copy": {
+          "label": "03 / HOW IT WORKS",
+          "howText": "AI detection in three simple steps",
+          "stepNumber": "01",
+          "stepHeading": "Insert your text",
+          "stepDesc": "Paste the content for AI detection into the check window or add your file. You can submit various formats in your account cabinet or right on the website."
+        },
+        "overflowAny": false
+      }
+    }
+  },
+  "firstScreen": {
+    "1920x1080": {
+      "h1TopDelta": null,
+      "composerTopDelta": null,
+      "afterH1": 446,
+      "afterComposer": 261
+    },
+    "1440x900": {
+      "h1TopDelta": null,
+      "composerTopDelta": null,
+      "afterH1": 360,
+      "afterComposer": 207
+    },
+    "1280x720": {
+      "h1TopDelta": null,
+      "composerTopDelta": null,
+      "afterH1": 260,
+      "afterComposer": 164
+    },
+    "768x1024": {
+      "h1TopDelta": null,
+      "composerTopDelta": null,
+      "afterH1": 189,
+      "afterComposer": 425
+    },
+    "390x844": {
+      "h1TopDelta": null,
+      "composerTopDelta": null,
+      "afterH1": 135,
+      "afterComposer": 431
+    }
+  },
+  "sticky": {
+    "1920x1080": {
+      "headerSticky": true,
+      "workspaceStickyInStage": true,
+      "spiralAligned": true,
+      "railPosition": "sticky",
+      "expectedRailTop": 64,
+      "atHowRailTop": 64,
+      "atHowSpiralTop": 64,
+      "stageHeight": 3176,
+      "howSectionMinHeight": "1080px",
+      "howCenteredish": true
+    },
+    "1440x900": {
+      "headerSticky": true,
+      "workspaceStickyInStage": true,
+      "spiralAligned": true,
+      "railPosition": "sticky",
+      "expectedRailTop": 64,
+      "atHowRailTop": 64,
+      "atHowSpiralTop": 64,
+      "stageHeight": 2636,
+      "howSectionMinHeight": "900px",
+      "howCenteredish": true
+    },
+    "1280x720": {
+      "headerSticky": true,
+      "workspaceStickyInStage": true,
+      "spiralAligned": true,
+      "railPosition": "sticky",
+      "expectedRailTop": 64,
+      "atHowRailTop": 64,
+      "atHowSpiralTop": 64,
+      "stageHeight": 2096,
+      "howSectionMinHeight": "720px",
+      "howCenteredish": true
+    },
+    "768x1024": {
+      "headerSticky": true,
+      "workspaceStickyInStage": true,
+      "spiralAligned": true,
+      "railPosition": "static",
+      "expectedRailTop": 92,
+      "atHowRailTop": -1623,
+      "atHowSpiralTop": -1956,
+      "stageHeight": 2980,
+      "howSectionMinHeight": "1024px",
+      "howCenteredish": true
+    },
+    "390x844": {
+      "headerSticky": true,
+      "workspaceStickyInStage": true,
+      "spiralAligned": true,
+      "railPosition": "static",
+      "expectedRailTop": 124,
+      "atHowRailTop": -1257,
+      "atHowSpiralTop": -1564,
+      "stageHeight": 2408,
+      "howSectionMinHeight": "844px",
+      "howCenteredish": true
+    }
+  }
+}

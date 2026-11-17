@@ -1,75 +1,128 @@
 /**
- * Split layout skeleton + Step 1.1 rhythm.
+ * Step 5.3 / 5.3.1 — Sticky workspace + spiral (desktop); stacked = normal flow.
  *
- * Spiral is NOT rendered. Stage remains full-width so a future
- * ~140–150vw SpiralLayer can sit as a sibling of .content-container.
- * No overflow clipping — preserves future position:sticky.
+ * Sticky boundary: .storytelling-stage
+ *   - .spiral-sticky-track covers the stage (absolute inset 0)
+ *   - .workspace-rail spans all grid rows
  *
- * .storytelling-stage has NO 100svh — height comes from editorial sections.
+ * Header is globally sticky (top: 0). Stage stickies use
+ * top: var(--header-height) so they sit below the Header.
+ *
+ * No overflow on stage/track — sticky must not be clipped by ancestors.
+ * Spiral paint clips on .spiral-background only.
  */
 
 .storytelling-stage {
   position: relative;
   width: 100%;
-  /* Debug surface — temporary, theme-aware */
-  background-color: var(--color-debug-stage);
+  background-color: var(--color-bg);
+}
+
+/*
+  Full-stage sticky containing block for the spiral.
+  Does not participate in document flow height (absolute).
+*/
+.spiral-sticky-track {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .content-container {
+  position: relative;
+  z-index: 1;
   box-sizing: border-box;
   width: 100%;
   max-width: var(--content-max);
   margin-inline: auto;
   padding-inline: var(--shell-pad-x);
-  /* Vertical rhythm owned by .editorial-section — no padding-block here */
 }
 
 .split-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
   column-gap: var(--split-gap);
-  align-items: stretch;
+  align-items: start;
   width: 100%;
 }
 
-.left-column,
-.right-column {
+.split-grid__scene {
+  display: contents;
+}
+
+.editorial-section--first {
+  grid-column: 1;
+  grid-row: 1;
   min-width: 0;
 }
 
-.layout-placeholder {
+/*
+  Desktop sticky column — align-self:start is required for grid sticky.
+  Height matches the first-screen scene so scrollY=0 matches Step 5.2.
+  Constrained by StorytellingStage / split-grid (not position:fixed).
+*/
+.workspace-rail {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  min-width: 0;
+  align-self: start;
+  position: sticky;
+  top: var(--header-height);
+  z-index: 1;
+  height: calc(100svh - var(--header-height));
+}
+
+.editorial-rail {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+}
+
+.workspace-rail__seat {
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  min-height: 12rem;
-  padding: var(--space-5);
-  border: 2px dashed currentColor;
-  font-family: var(--font-mono);
-  font-size: var(--text-sm);
-  font-weight: var(--weight-medium);
-  letter-spacing: 0.04em;
-  text-align: center;
+  height: 100%;
 }
 
-/* Temporary debugging colors — theme-aware, not brand UI */
-.layout-placeholder--left {
-  color: var(--color-debug-left-fg);
-  background-color: var(--color-debug-left-bg);
-  border-color: var(--color-debug-left-border);
-}
-
-.layout-placeholder--right {
-  color: var(--color-debug-right-fg);
-  background-color: var(--color-debug-right-bg);
-  border-color: var(--color-debug-right-border);
-}
-
-/* Narrow viewports: stack only — not a final mobile design */
+/* Stacked: Hero → Composer → EditorialRail — no sticky */
 @media (max-width: 1199px) {
   .split-grid {
-    grid-template-columns: minmax(0, 1fr);
-    row-gap: var(--space-5);
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
     column-gap: 0;
+  }
+
+  .split-grid__scene {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space-5);
+    min-height: calc(100svh - var(--header-height));
+    width: 100%;
+  }
+
+  .editorial-section--first,
+  .workspace-rail,
+  .editorial-rail {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .workspace-rail {
+    position: static;
+    height: auto;
+    z-index: auto;
+  }
+
+  .workspace-rail__seat {
+    height: auto;
+  }
+
+  .editorial-rail {
+    width: 100%;
   }
 }

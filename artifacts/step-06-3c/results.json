@@ -1,0 +1,111 @@
+{
+  "tests": {
+    "heroIdle": true,
+    "A_textStartsLow": true,
+    "A_textProgresses": true,
+    "A_textCompletes": true,
+    "A_detail": {
+      "first": "0.0000",
+      "mid": "0.3083",
+      "done": "0.9972"
+    },
+    "B_processing": true,
+    "C_panelMounts": true,
+    "C_panelExpands": true,
+    "C_docPushed": true,
+    "C_revealDelayed": true,
+    "C_revealRuns": true,
+    "C_finalScore": true,
+    "C_detail": {
+      "early": {
+        "shellH": 0,
+        "reveal": "0.0000",
+        "score": "0.00%",
+        "docTop": 256
+      },
+      "mid": {
+        "shellH": 123,
+        "reveal": "0.2943",
+        "score": "24.01%",
+        "docTop": 379
+      },
+      "final": {
+        "shellH": 123,
+        "reveal": "1.0000",
+        "score": "81.59%",
+        "docTop": 379
+      },
+      "docTopBefore": 256,
+      "minShellEarly": 0,
+      "maxShell": 123
+    },
+    "D_collapses": true,
+    "D_processingRestored": true,
+    "E_step1NoReplay": true,
+    "F_focusInstant": true,
+    "G_blurRestores": true,
+    "G_noRestart": true,
+    "H_userBlocks": true,
+    "I_textInstant": true,
+    "I_resultInstant": true,
+    "darkComplete": true,
+    "F_note": "Takeover confirmed by subsequent G blur restore + H user block"
+  },
+  "geometry": {
+    "promptH": {
+      "step1": 468,
+      "step2": 468,
+      "step3": 468,
+      "delta13": 0,
+      "delta23": 0
+    },
+    "overlap": false,
+    "overflowX": false
+  },
+  "viewports": {
+    "1920x1080": {
+      "promptH1": 540,
+      "promptH3": 540,
+      "delta": 0,
+      "score": "81.59%",
+      "overflowX": false,
+      "ok": true
+    },
+    "1440x900": {
+      "promptH1": 468,
+      "promptH3": 468,
+      "delta": 0,
+      "score": "81.59%",
+      "overflowX": false,
+      "ok": true
+    },
+    "1280x720": {
+      "promptH1": 374,
+      "promptH3": 374,
+      "delta": 0,
+      "score": "81.59%",
+      "overflowX": false,
+      "ok": true
+    }
+  },
+  "mobile": {
+    "noAutoDemo": true
+  },
+  "video": "demo-sequence.webm",
+  "checks": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": true,
+    "H": true,
+    "I": true,
+    "geometry": true,
+    "viewports": true,
+    "mobile": true,
+    "video": true
+  },
+  "allPass": true
+}

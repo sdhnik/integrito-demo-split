@@ -1,0 +1,42 @@
+{
+  "tests": {
+    "A_clickScore": true,
+    "A_detail": {
+      "isDemo": false,
+      "isProcessing": false,
+      "isResult": false,
+      "hasDoc": false,
+      "hasResult": false,
+      "hasTa": true,
+      "activeId": "detector-text",
+      "focusedIsTa": true,
+      "value": "",
+      "promptH": 468,
+      "composers": 1,
+      "overflowX": false
+    },
+    "G_prep": true,
+    "B_clickHighlight": true,
+    "C_prep": true,
+    "C_clickProcessing": true,
+    "D_clickSample": true,
+    "E_keepsDraft": true,
+    "F_emptyRestores": true,
+    "G_emptyBlurRestores": true,
+    "H_keyboard": true,
+    "H_space": true,
+    "I_layout": true
+  },
+  "checks": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": true,
+    "H": true,
+    "I": true
+  },
+  "allPass": true
+}

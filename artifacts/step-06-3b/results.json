@@ -1,0 +1,189 @@
+{
+  "tests": {
+    "pre_step1": true,
+    "pre_step2": true,
+    "A_startsNearZero": true,
+    "A_detail": {
+      "first": {
+        "t": 150,
+        "progress": 0,
+        "score": "0.00%",
+        "bar": "0%",
+        "marks": [
+          0,
+          0
+        ]
+      },
+      "samples": [
+        {
+          "t": 150,
+          "progress": 0,
+          "score": "0.00%",
+          "bar": "0%",
+          "marks": [
+            0,
+            0
+          ]
+        },
+        {
+          "t": 264,
+          "progress": 0,
+          "score": "0.00%",
+          "bar": "0%",
+          "marks": [
+            0,
+            0
+          ]
+        },
+        {
+          "t": 406,
+          "progress": 0.2119,
+          "score": "17.29%",
+          "bar": "17.2872%",
+          "marks": [
+            0.42375743477406047,
+            0
+          ]
+        }
+      ]
+    },
+    "B_midProgressing": true,
+    "C_finalScore": true,
+    "C_bar": true,
+    "C_highlightsFull": true,
+    "C_footnote": true,
+    "C_progress1": true,
+    "D_backProcessing": true,
+    "E_replayStartsLow": true,
+    "E_detail": {
+      "first": {
+        "t": 163,
+        "progress": 0,
+        "score": "0.00%",
+        "bar": "0%",
+        "marks": [
+          0,
+          0
+        ]
+      },
+      "samples": [
+        {
+          "t": 163,
+          "progress": 0,
+          "score": "0.00%",
+          "bar": "0%",
+          "marks": [
+            0,
+            0
+          ]
+        },
+        {
+          "t": 241,
+          "progress": 0,
+          "score": "0.00%",
+          "bar": "0%",
+          "marks": [
+            0,
+            0
+          ]
+        },
+        {
+          "t": 326,
+          "progress": 0.1498,
+          "score": "12.22%",
+          "bar": "12.2193%",
+          "marks": [
+            0.2995284270862202,
+            0
+          ]
+        },
+        {
+          "t": 412,
+          "progress": 0.3147,
+          "score": "25.68%",
+          "bar": "25.6801%",
+          "marks": [
+            0.6294907163279186,
+            0
+          ]
+        },
+        {
+          "t": 497,
+          "progress": 0.4551,
+          "score": "37.13%",
+          "bar": "37.1319%",
+          "marks": [
+            0.9102068987605216,
+            0
+          ]
+        }
+      ]
+    },
+    "E_replayCompletes": true,
+    "F_focusHides": true,
+    "F_detail": {
+      "before": 0.9233,
+      "afterHidden": true
+    },
+    "G_blurRestores": true,
+    "G_completesAfterResume": true,
+    "G_noRestartAfterComplete": true,
+    "H_userBlocksDemo": true,
+    "darkComplete": true,
+    "I_reducedMotionInstant": true,
+    "I_detail": {
+      "progress": 1,
+      "score": "81.59%",
+      "marks": [
+        1,
+        1
+      ]
+    },
+    "themeNoRestart": true,
+    "A_progresses": true,
+    "E_replayProgresses": true
+  },
+  "geometry": {
+    "promptH": {
+      "step1": 468,
+      "step2": 468,
+      "step3": 468,
+      "delta13": 0,
+      "delta23": 0
+    },
+    "overlap": false,
+    "overflowX": false
+  },
+  "mid": {
+    "progress": 0.6664,
+    "score": "54.38%",
+    "bar": "54.3754%",
+    "marks": [
+      1,
+      0.33289257015350104
+    ]
+  },
+  "mobile": {
+    "noAutoResult": true
+  },
+  "video": "result-reveal.webm",
+  "allPass": true,
+  "fails": [
+    "geometry.overlap",
+    "geometry.overflowX"
+  ],
+  "checks": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": true,
+    "H": true,
+    "I": true,
+    "geometry": true,
+    "mobile": true,
+    "video": true
+  }
+}

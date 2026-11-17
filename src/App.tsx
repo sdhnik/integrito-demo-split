@@ -1,10 +1,11 @@
 import Header from "./components/Header";
 import StorytellingStage from "./sections/StorytellingStage";
+import TrustSection from "./sections/TrustSection";
 import "./App.css";
 
 /**
- * Step 2 — Header + existing layout skeleton.
- * Spiral, sticky, TrustSection, and product UI remain deferred.
+ * Step 5.5 — Header + StorytellingStage + TrustSection (outside stage).
+ * Sticky Workspace/Spiral release at StorytellingStage bottom.
  */
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <main className="app__main">
         <StorytellingStage />
-        {/* TrustSection: sibling AFTER StorytellingStage — deferred */}
+        <TrustSection />
       </main>
     </div>
   );

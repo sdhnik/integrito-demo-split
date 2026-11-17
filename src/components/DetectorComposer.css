@@ -1,0 +1,1001 @@
+/**
+ * Step 3.2 — Composer visuals from integrito.app PromptInput / main.css.
+ * Colors scoped to match Original; layout is in-flow (right column), not absolute.
+ */
+
+.detector-composer {
+  --composer-surface: #ffffff;
+  --composer-line: #dededc;
+  --composer-text: #171717;
+  --composer-muted: #6c6c71;
+  --composer-subtle: #707075;
+  --composer-accent: #4361ff;
+  --composer-accent-hover: #304be4;
+  --composer-error: #c43c3c;
+  --composer-radius: 9px;
+  --composer-button-radius: 10px;
+  --composer-transition: 160ms ease;
+  /* Soft purple reserved for AI text highlighting (Original / not brand blue). */
+  --ai-highlight: #e8dff8;
+  --ai-highlight-text: #171717;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 40rem;
+  margin-inline: auto 0;
+  pointer-events: auto;
+}
+
+/*
+  Step 7.1 — same composer DOM promoted to a fixed dialog shell.
+  Preserves demo/result React state (no remount of the surface).
+*/
+.detector-composer.is-expanded {
+  position: fixed;
+  z-index: 910;
+  top: 24px;
+  bottom: 24px;
+  /* Explicit width — not width:auto shrink-to-fit (Clear was widening the dialog). */
+  left: 50%;
+  right: auto;
+  box-sizing: border-box;
+  width: min(1100px, calc(100vw - 48px));
+  max-width: min(1100px, calc(100vw - 48px));
+  min-width: 0;
+  height: calc(100dvh - 48px);
+  max-height: calc(100dvh - 48px);
+  margin: 0;
+  transform: translateX(-50%) scale(0.98);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px 12px;
+  background: var(--composer-surface);
+  border: 1px solid var(--composer-line);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 16px 48px #00000022;
+  animation: composer-expand-in 250ms ease-out forwards;
+}
+
+@keyframes composer-expand-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+@keyframes composer-expand-out {
+  from {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.98);
+  }
+}
+
+.detector-composer.is-expanded.is-expand-exiting {
+  animation: composer-expand-out 250ms ease-out forwards;
+  pointer-events: none;
+}
+
+.detector-composer.is-expanded .detector-composer__prompt {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: 100%;
+  min-height: 0;
+  height: auto;
+  max-height: none;
+  box-shadow: none;
+}
+
+.detector-composer.is-expanded .detector-composer__toolbar {
+  width: 100%;
+  min-width: 0;
+}
+
+.detector-composer.is-expanded .detector-composer__editor-inner {
+  width: 100%;
+  min-width: 0;
+  margin-inline: 0;
+}
+
+/*
+  Step 7.2B.2.1 — result summary shares the document’s content width.
+  (Previous max-width: 56rem left the score/bar narrower than the text.)
+*/
+.detector-composer.is-expanded .detector-composer__result-shell,
+.detector-composer.is-expanded .detector-composer__result-clip,
+.detector-composer.is-expanded .detector-composer__result {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin-inline: 0;
+  box-sizing: border-box;
+}
+
+.detector-composer.is-expanded .detector-composer__footnote {
+  flex-shrink: 0;
+  /* Step 7.1.1 — release reserved compact footnote height to the document. */
+  min-height: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detector-composer.is-expanded,
+  .detector-composer.is-expanded.is-expand-exiting {
+    animation: none;
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+@media (max-width: 760px) {
+  .detector-composer.is-expanded {
+    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    height: 100dvh;
+    max-height: 100dvh;
+    padding: max(12px, env(safe-area-inset-top))
+      max(12px, env(safe-area-inset-right))
+      max(12px, env(safe-area-inset-bottom))
+      max(12px, env(safe-area-inset-left));
+    border-radius: 0;
+    border: 0;
+    transform: none;
+    animation: composer-expand-in-mobile 250ms ease-out forwards;
+  }
+
+  @keyframes composer-expand-in-mobile {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes composer-expand-out-mobile {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .detector-composer.is-expanded.is-expand-exiting {
+    animation: composer-expand-out-mobile 250ms ease-out forwards;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .detector-composer.is-expanded,
+    .detector-composer.is-expanded.is-expand-exiting {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+[data-theme="dark"] .detector-composer {
+  --composer-surface: #17191e;
+  --composer-line: #303238;
+  --composer-text: #f2f2f2;
+  --composer-muted: #b8bdc7;
+  --composer-subtle: #9ea4af;
+  --composer-accent: #4361ff;
+  --composer-accent-hover: #5a74ff;
+  --composer-error: #f07178;
+  --ai-highlight: #3a2f52;
+  --ai-highlight-text: #f2f2f2;
+}
+
+/* Shared helper copy above + below the editor */
+.detector-composer__helper {
+  font-family: var(--font-sans);
+  font-size: var(--text-meta);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-meta);
+  letter-spacing: normal;
+  color: var(--color-text-muted);
+}
+
+.detector-composer-slot {
+  width: 100%;
+  max-width: 40rem;
+  margin-inline: auto 0;
+}
+
+.detector-composer-slot__spacer {
+  width: 100%;
+  pointer-events: none;
+}
+
+.detector-composer__label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 8px;
+  min-height: 20px;
+}
+
+.detector-composer__label {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.detector-composer__label label {
+  font: inherit;
+  color: inherit;
+  cursor: text;
+}
+
+/* Step 6.1 — subtle demo affordance (12px meta, no new panel) */
+.detector-composer__demo-meta {
+  font: inherit;
+  color: inherit;
+}
+
+/*
+  Step 7.1 — Expand / Collapse icon control on the label row.
+  Muted meta chrome — not a primary CTA.
+*/
+.detector-composer__icon-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--composer-muted);
+  cursor: pointer;
+  transition:
+    color var(--composer-transition),
+    background-color var(--composer-transition);
+}
+
+/*
+  Step 7.1.1 — contextual Expand: keep layout slot, fade visibility.
+*/
+.detector-composer__expand-toggle {
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 150ms ease,
+    color var(--composer-transition),
+    background-color var(--composer-transition);
+}
+
+.detector-composer__expand-toggle.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detector-composer__expand-toggle {
+    transition:
+      color var(--composer-transition),
+      background-color var(--composer-transition);
+  }
+}
+
+.detector-composer__icon-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.detector-composer__icon-btn:hover {
+  color: var(--composer-text);
+  background: color-mix(in srgb, var(--composer-text) 6%, transparent);
+}
+
+.detector-composer__icon-btn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+  color: var(--composer-text);
+}
+
+.detector-composer__editor-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+}
+
+.detector-composer__prompt {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* Full-size editor: ~52svh, capped at 540px; shrink on short viewports */
+  height: min(52svh, 540px, calc(100svh - var(--header-height) - 5rem));
+  background: var(--composer-surface);
+  border: 1px solid var(--composer-line);
+  border-radius: var(--composer-radius);
+  padding: 20px 21px 14px;
+  box-shadow: 0 6px 24px #00000003;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s,
+    background 0.35s;
+}
+
+.detector-composer__prompt:focus-within {
+  border-color: var(--composer-accent);
+  box-shadow: 0 0 0 3px #4361ff0c;
+}
+
+/*
+  Step 6.2 — editor shell keeps flex height; processing overlays
+  without resizing textarea or shifting toolbar.
+*/
+.detector-composer__editor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+}
+
+.detector-composer__prompt textarea,
+.detector-composer__editor textarea {
+  display: block;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  resize: none;
+  border: 0;
+  background: transparent;
+  outline: 0;
+  color: var(--composer-text);
+  caret-color: var(--composer-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-body);
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+/*
+  Step 6.2 / 6.3C.3 — processing status on the sample document.
+  Body scale (16/24, semibold) + brand color; absolute so entrance never shifts layout.
+  Mount once per processing visit → CSS entrance runs once; remount on Step 2 re-entry.
+*/
+.detector-composer__processing {
+  --processing-enter-ms: 400ms;
+  --processing-dot-start: 200ms;
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--composer-surface) 88%, transparent);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-body);
+  color: var(--color-brand);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: detector-processing-enter var(--processing-enter-ms) ease-out forwards;
+}
+
+.detector-composer__processing-label {
+  margin-right: 2px;
+}
+
+.detector-composer__dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 1.5rem;
+}
+
+.detector-composer__dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.25;
+  /* Dot pulse starts after the status begins appearing. */
+  animation: detector-demo-dot 1.5s ease-in-out var(--processing-dot-start) infinite;
+}
+
+.detector-composer__dot:nth-child(2) {
+  animation-delay: calc(var(--processing-dot-start) + 0.2s);
+}
+
+.detector-composer__dot:nth-child(3) {
+  animation-delay: calc(var(--processing-dot-start) + 0.4s);
+}
+
+@keyframes detector-processing-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes detector-processing-exit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.detector-composer__processing.is-exiting {
+  animation: detector-processing-exit 250ms ease-out forwards;
+}
+
+.detector-composer__processing.is-exiting .detector-composer__dot {
+  animation: none;
+  opacity: 0.25;
+}
+
+@keyframes detector-demo-dot {
+  0%,
+  80%,
+  100% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detector-composer__processing,
+  .detector-composer__processing.is-exiting {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .detector-composer__dot {
+    animation: none;
+    opacity: 0.7;
+  }
+}
+
+/*
+  Step 6.3C — in-flow result panel shell.
+  grid-template-rows 0fr→1fr expands height and pushes the document down.
+  Outer prompt height stays fixed; only internal regions reflow.
+*/
+.detector-composer__result-shell {
+  --result-panel-ms: 480ms;
+  --result-panel-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  display: grid;
+  grid-template-rows: 0fr;
+  flex-shrink: 0;
+  transition: grid-template-rows var(--result-panel-ms) var(--result-panel-ease);
+}
+
+.detector-composer__result-shell.is-open {
+  grid-template-rows: 1fr;
+}
+
+.detector-composer__result-shell.is-instant {
+  transition: none;
+}
+
+.detector-composer__result-clip {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.detector-composer__result {
+  margin: 0 0 12px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--composer-line);
+  transform: translateY(-8px);
+  opacity: 0;
+  cursor: text;
+  outline: none;
+  transition:
+    transform var(--result-panel-ms) var(--result-panel-ease),
+    opacity calc(var(--result-panel-ms) * 0.75) ease-out;
+}
+
+.detector-composer__result:focus-visible {
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--composer-accent) 45%, transparent);
+  border-radius: var(--radius-sm);
+}
+
+.detector-composer__result-shell.is-open .detector-composer__result {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.detector-composer__result-shell.is-instant .detector-composer__result {
+  transition: none;
+}
+
+/*
+  Collapse: purple fill fades out; text stays (no LTR reverse / score countdown).
+*/
+@property --hl-fade {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 1;
+}
+
+.detector-composer__document.is-highlights-exiting {
+  --hl-fade: 0;
+  transition: --hl-fade 320ms ease-out;
+}
+
+.detector-composer__result-kicker {
+  margin: 0 0 8px;
+  font-family: var(--font-sans);
+  font-size: var(--text-meta);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-meta);
+  color: var(--composer-muted);
+}
+
+.detector-composer__result-score-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: var(--space-5);
+  align-items: start;
+}
+
+.detector-composer__result-score {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 40px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: -0.03em;
+  line-height: 44px;
+  color: var(--composer-text);
+}
+
+.detector-composer__result-detail {
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.detector-composer__result-class {
+  margin: 0 0 8px;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-body);
+  color: var(--composer-text);
+}
+
+.detector-composer__result-bar {
+  margin: 0 0 8px;
+}
+
+.detector-composer__result-bar-track {
+  height: 4px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--composer-accent) 16%, transparent);
+  overflow: hidden;
+}
+
+.detector-composer__result-bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--color-brand);
+  /* Width only — no transition (driven by shared revealProgress). */
+}
+
+.detector-composer__result-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-meta);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-meta);
+  color: var(--composer-muted);
+}
+
+.detector-composer__result-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--ai-highlight);
+  flex-shrink: 0;
+}
+
+.detector-composer__document {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  cursor: text;
+  scrollbar-width: thin;
+  transition: opacity 250ms ease-out;
+}
+
+.detector-composer__document.is-demo-exiting {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detector-composer__document {
+    transition: none;
+  }
+
+  .detector-composer__document.is-highlights-exiting {
+    transition: none;
+    --hl-fade: 0;
+  }
+}
+
+.detector-composer__document-text {
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-body);
+  color: var(--composer-text);
+  /*
+    Step 6.3C.1 — top→bottom reveal via mask.
+    Soft edge trails *ahead* of the opaque tip (into unrevealed space),
+    so at --text-entrance: 1 the tip sits at 100% and every line is solid.
+    Prior 92%→100% fade left the last paragraph permanently translucent.
+  */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 calc(var(--text-entrance, 1) * 100%),
+    transparent calc(var(--text-entrance, 1) * 100% + 1.5rem)
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 calc(var(--text-entrance, 1) * 100%),
+    transparent calc(var(--text-entrance, 1) * 100% + 1.5rem)
+  );
+}
+
+/* Entrance finished — drop the mask entirely (no residual fade). */
+.detector-composer__document.is-text-ready .detector-composer__document-text {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .detector-composer__result-shell {
+    transition: none;
+  }
+
+  .detector-composer__result {
+    transition: none;
+    transform: none;
+    opacity: 1;
+  }
+
+  .detector-composer__document-text {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
+
+/*
+  Soft purple marks — geometry stays stable; fill via --hl-reveal (LTR)
+  and --hl-fade (collapse fade of purple only).
+*/
+.demo-ai-highlight {
+  color: var(--ai-highlight-text);
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  background-color: transparent;
+  background-image: linear-gradient(
+    color-mix(
+      in srgb,
+      var(--ai-highlight) calc(var(--hl-fade, 1) * 100%),
+      transparent
+    ),
+    color-mix(
+      in srgb,
+      var(--ai-highlight) calc(var(--hl-fade, 1) * 100%),
+      transparent
+    )
+  );
+  background-repeat: no-repeat;
+  background-size: calc(var(--hl-reveal, 1) * 100%) 100%;
+  background-position: left center;
+}
+
+.detector-composer__prompt textarea::placeholder {
+  color: var(--composer-subtle);
+}
+
+.detector-composer__toolbar {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.detector-composer__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 19px;
+  min-width: 0;
+}
+
+.detector-composer__paste {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-ui);
+  color: var(--composer-muted);
+  cursor: pointer;
+  transition: color var(--composer-transition);
+}
+
+.detector-composer__paste svg {
+  width: 16px;
+  height: 16px;
+  max-width: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+
+.detector-composer__paste:hover,
+.detector-composer__clear:hover {
+  color: var(--composer-accent);
+}
+
+.detector-composer__count {
+  padding-left: 18px;
+  border-left: 1px solid var(--composer-line);
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  line-height: var(--leading-meta);
+  font-weight: var(--weight-regular);
+  color: var(--composer-subtle);
+  white-space: nowrap;
+}
+
+.detector-composer__count.is-over-limit {
+  color: var(--composer-error);
+  font-weight: var(--weight-semibold);
+}
+
+.detector-composer__pages {
+  font: inherit;
+  color: inherit;
+}
+
+.detector-composer__clear,
+.detector-composer__edit,
+.detector-composer__retry {
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-ui);
+  background: none;
+  border: none;
+  color: var(--composer-muted);
+  padding: 5px;
+  cursor: pointer;
+  transition: color var(--composer-transition);
+}
+
+.detector-composer__edit:hover,
+.detector-composer__retry:hover {
+  color: var(--composer-accent);
+}
+
+.detector-composer__error {
+  flex-shrink: 0;
+  margin: 0 0 10px;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--composer-error) 35%, var(--composer-line));
+  border-radius: var(--composer-radius);
+  background: color-mix(in srgb, var(--composer-error) 8%, var(--composer-surface));
+}
+
+.detector-composer__error-message {
+  margin: 0 0 10px;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--leading-ui);
+  color: var(--composer-text);
+}
+
+.detector-composer__error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.detector-composer__detect {
+  /* Same theme-aware primary system as Header Sign up */
+  background: var(--color-brand);
+  color: var(--color-accent-contrast);
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 18px;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-ui);
+  border: none;
+  border-radius: var(--composer-button-radius);
+  cursor: pointer;
+  transition: background-color var(--composer-transition);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.detector-composer__detect:hover:not(:disabled) {
+  background: var(--color-accent-hover);
+}
+
+.detector-composer__detect:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.detector-composer__detect > span {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.detector-composer__footnote {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 12px 2px 0;
+  min-height: 2.6em;
+}
+
+.detector-composer__footnote > [role="status"] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.detector-composer__shortcut {
+  font-family: var(--font-mono);
+  white-space: nowrap;
+  font-size: var(--text-meta);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-meta);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 1199px) {
+  .detector-composer,
+  .detector-composer-slot {
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .detector-composer__prompt {
+    height: min(42svh, 420px, calc(100svh - var(--header-height) - 6rem));
+  }
+}
+
+@media (max-width: 760px) {
+  .detector-composer__prompt {
+    height: min(38svh, 360px, calc(100svh - var(--header-height) - 8rem));
+    padding: 16px 15px 12px;
+  }
+
+  .detector-composer__tools {
+    gap: 12px;
+  }
+
+  .detector-composer__count {
+    padding-left: 12px;
+  }
+
+  .detector-composer__count-label {
+    display: none;
+  }
+
+  .detector-composer__shortcut {
+    display: none;
+  }
+
+  .detector-composer__detect {
+    padding: 0 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .detector-composer__tools {
+    gap: 5px 12px;
+  }
+
+  .detector-composer__count {
+    order: 3;
+    flex-basis: 100%;
+    padding-left: 0;
+    border: 0;
+    white-space: normal;
+  }
+
+  .detector-composer__clear {
+    padding: 5px 0;
+  }
+}
