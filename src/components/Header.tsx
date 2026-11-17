@@ -61,7 +61,11 @@ function Header() {
     <header className="site-header" ref={headerRef}>
       <div className="site-header__inner">
         <div className="site-header__left">
-          <a className="site-header__brand" href="/" aria-label="Integrito home">
+          <a
+            className="site-header__brand"
+            href={import.meta.env.BASE_URL}
+            aria-label="Integrito home"
+          >
             <img
               className="site-header__logo"
               src={logoSrc}
