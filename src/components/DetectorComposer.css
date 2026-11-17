@@ -806,14 +806,18 @@
 }
 
 .detector-composer__count {
-  padding-left: 18px;
-  border-left: 1px solid var(--composer-line);
   font-family: var(--font-mono);
   font-size: var(--text-meta);
   line-height: var(--leading-meta);
   font-weight: var(--weight-regular);
   color: var(--composer-subtle);
   white-space: nowrap;
+}
+
+/* Divider only when Paste / Edit precedes the counter in the tools row. */
+.detector-composer__count.has-divider {
+  padding-left: 18px;
+  border-left: 1px solid var(--composer-line);
 }
 
 .detector-composer__count.is-over-limit {

@@ -176,6 +176,17 @@ function DetectorComposer() {
     setEditorFocused(true);
   };
 
+  /**
+   * Result → idle: clear draft + session, keep expand state, focus empty editor.
+   * Focus ownership blocks demo eligibility so Step 3 fixture cannot appear.
+   */
+  const onNewCheck = () => {
+    clearUserDraft();
+    setNotice("");
+    resetCheck();
+    setEditorFocused(true);
+  };
+
   const openExpanded = useCallback(() => {
     if (expandExiting) return;
     const el = rootRef.current;
@@ -714,15 +725,11 @@ function DetectorComposer() {
             </div>
             <div className="detector-composer__toolbar">
               <div className="detector-composer__tools">
-                {isUserResult ? (
-                  <button
-                    type="button"
-                    className="detector-composer__edit"
-                    onClick={onEditText}
-                  >
-                    Edit text
-                  </button>
-                ) : isUserError ? null : (
+                {/*
+                  Paste (and Edit, if present in this row) own the leading
+                  divider via .has-divider on the count — no orphan rule.
+                */}
+                {isUserResult || isUserError ? null : (
                   <button
                     type="button"
                     className="detector-composer__paste"
@@ -738,6 +745,8 @@ function DetectorComposer() {
                 )}
                 <span
                   className={`detector-composer__count${
+                    !(isUserResult || isUserError) ? " has-divider" : ""
+                  }${
                     overWordLimit && !isUserCheckSurface ? " is-over-limit" : ""
                   }`}
                   aria-label={`${wordCount.toLocaleString()} of ${detectionLimitLabel} words, ${formatPageEstimate(pageEstimate)}`}
@@ -782,31 +791,44 @@ function DetectorComposer() {
                   </button>
                 ) : null}
               </div>
-              <button
-                type="submit"
-                className="detector-composer__detect"
-                disabled={
-                  overWordLimit ||
-                  (showDemoChrome && !isUserCheckSurface) ||
-                  isUserProcessing
-                }
-                title={
-                  isUserProcessing
-                    ? "Analysis in progress"
-                    : showDemoChrome && !isUserCheckSurface
-                      ? "Interact with the editor to use your own text"
-                      : overWordLimit
-                        ? overLimitMessage
-                        : undefined
-                }
-              >
-                {isUserError
-                  ? "Retry"
-                  : isUserProcessing
-                    ? "Detecting…"
-                    : "Detect AI"}{" "}
-                <span aria-hidden="true">↗</span>
-              </button>
+              {isUserResult ? (
+                <button
+                  type="button"
+                  className="detector-composer__detect"
+                  onClick={onNewCheck}
+                >
+                  New check <span aria-hidden="true">↗</span>
+                </button>
+              ) : (
+                <button
+                  type="submit"
+                  className="detector-composer__detect"
+                  disabled={
+                    isUserProcessing ||
+                    overWordLimit ||
+                    (showDemoChrome && !isUserCheckSurface) ||
+                    (!isUserError && !state.userDraft.trim())
+                  }
+                  title={
+                    isUserProcessing
+                      ? "Analysis in progress"
+                      : showDemoChrome && !isUserCheckSurface
+                        ? "Interact with the editor to use your own text"
+                        : overWordLimit
+                          ? overLimitMessage
+                          : !isUserError && !state.userDraft.trim()
+                            ? "Paste some text to get started."
+                            : undefined
+                  }
+                >
+                  {isUserError
+                    ? "Retry"
+                    : isUserProcessing
+                      ? "Analyzing..."
+                      : "Detect AI"}{" "}
+                  <span aria-hidden="true">↗</span>
+                </button>
+              )}
             </div>
           </form>
           <div className="detector-composer__footnote">
